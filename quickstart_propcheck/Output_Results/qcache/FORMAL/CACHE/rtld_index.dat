@@ -1,0 +1,67 @@
+>8
+v366
+t61
+c62
+#61 p20157 @fifo
+#60 p20011 @zi_oper_38_o8_i32
+#59 p19807 @zi_property_fifo_out_is_empty_fifo_4*i1
+#58 p19605 @zi_property_fifo_out_is_full_fifo_4*i1
+#57 p19402 @zi_property_fifo_cover_ent_6_fifo_i1_i3_i1
+#56 p19199 @zi_property_fifo_cover_ent_5_fifo_i1_i3_i1
+#55 p18996 @zi_property_fifo_cover_ent_4_fifo_i1_i3_i1
+#54 p18793 @zi_property_fifo_cover_ent_3_fifo_i1_i3_i1
+#53 p18590 @zi_property_fifo_cover_ent_2_fifo_i1_i3_i1
+#52 p18387 @zi_property_fifo_cover_ent_1_fifo_i1_i3_i1
+#51 p18184 @zi_property_fifo_cover_ent_0_fifo_i1_i3_i1
+#50 p17996 @zi_oper_32_o32_4*i8
+#49 p17871 @zi_const_8'bx_o8
+#48 p17724 @zi_oper_30_o1_2*i1
+#47 p17433 @zi_select_o8_i1_i8_i1_i8_i1_i8_i1_i8_i1_i8
+#46 p17304 @zi_const_32'h3_o32
+#21 p9409 @zi_const_6_o32
+#20 p8188 @zi_property_logic_fifo_cover_ent_5_fifo
+#19 p8067 @zi_const_5_o32
+#18 p6849 @zi_property_logic_fifo_cover_ent_4_fifo
+#17 p6728 @zi_const_4_o32
+#16 p5510 @zi_property_logic_fifo_cover_ent_3_fifo
+#15 p5389 @zi_const_3_o32
+#14 p4171 @zi_property_logic_fifo_cover_ent_2_fifo
+#13 p4050 @zi_const_2_o32
+#12 p2832 @zi_property_logic_fifo_cover_ent_1_fifo
+#11 p2711 @zi_const_1_o32
+#10 p1504 @zi_property_logic_fifo_cover_ent_0_fifo
+#3 p555 @zi_const_0_o32
+#2 p381 @zi_oper_32_o32_i29_i3
+#1 p253 @zi_const_29'b0_o29
+#0 p0 @zi_dff_o1_10*i1
+#4 p675 @zi_oper_14_o1_2*i32
+#5 p833 @zi_assign_o1_i1
+#6 p960 @zi_const_1'b1_o1
+#7 p1081 @zi_oper_64_o1_2*i1
+#8 p1227 @zi_oper_25_o1_2*i1
+#9 p1373 @zi_oper_24_o1_i1
+#22 p9530 @zi_property_logic_fifo_cover_ent_6_fifo
+#23 p10752 @zi_property_logic_fifo_out_is_full_fifo
+#24 p12330 @zi_property_logic_fifo_out_is_empty_fifo
+#25 p13920 @zi_dff_o2_i2_5*i1_i2_3*i1
+#26 p14196 @zi_dff_o8_i8_5*i1_i8_3*i1
+#27 p14472 @zi_dff_o3_i3_5*i1_i3_3*i1
+#28 p14748 @zi_mux_o2_i1_2*i2
+#29 p14911 @zi_oper_16_o1_2*i1
+#30 p15058 @zi_const_2'b0_o2
+#31 p15183 @zi_const_2'b1_o2
+#32 p15308 @zi_oper_0_o2_2*i2
+#33 p15455 @zi_oper_29_o1_2*i1
+#34 p15602 @zi_oper_16_o1_2*i2
+#35 p15759 @zi_const_2'h2_o2
+#36 p15884 @zi_const_2'h3_o2
+#37 p16009 @zi_mux_o3_i1_2*i3
+#38 p16172 @zi_const_3'b0_o3
+#39 p16297 @zi_const_3'b1_o3
+#40 p16422 @zi_oper_1_o3_2*i3
+#41 p16569 @zi_oper_0_o3_2*i3
+#42 p16716 @zi_const_1'b0_o1
+#43 p16838 @zi_oper_31_o1_3*i1
+#44 p16997 @zi_mux_o1_3*i1
+#45 p17147 @zi_oper_14_o1_2*i3
+<8

@@ -1,0 +1,127 @@
+
+Questa Version 2019.2_1 linux_x86_64 18 May 2019
+
+-------------------------------------------------------------------------------
+Design Report
+Created Sat Dec 23 22:39:15 2023
+-------------------------------------------------------------------------------
+
+
+Design 'datapath'
+===============================================================================
+
+
+---------------------------------------
+Design Summary                    Count
+---------------------------------------
+Clocks                                1
+  User-specified                      1
+  Inferred                            0
+Resets                                1
+  User-specified                      0
+  Inferred                            1
+Control Point Bits                  206
+  DUT Input Bits                    205
+  Cut Point Bits                      0
+  Black Box Output Bits               0
+  Undriven Wire Bits                  1
+  Unresolved RHS Bits                 0
+State Bits                           72
+  Design Register Bits               72
+  Design Latch Bits                   0
+Storage Structures       
+  Counters                            0
+  RAMs                                0
+Black Boxes                           0
+Constants Bits                        0
+---------------------------------------
+
+Detailed Design Information
+===============================================================================
+
+
+Clocks
+------------------------------------------------------------------------------
+Port                                   Period         Waveform    Edges
+------------------------------------------------------------------------------
+clk                                        10              0 5    PE NE
+------------------------------------------------------------------------------
+
+Resets
+-------
+  rst [inferred] (Active High)
+
+Constants
+------------------
+  <none>
+
+Cut Points
+----------
+  <none>
+
+Black Box Outputs
+-----------------
+  <none>
+
+Undriven Wires
+--------------
+  ins[8]  (1 bit)
+
+Unresolved RHS Bits
+-------------------
+  <none>
+
+Latches
+-------
+  <none>
+
+Counters
+--------
+  <none>
+
+RAMs
+----
+  <none>
+
+Black Boxes (User-specified)
+----------------------------
+  <none>
+
+Black Boxes (Inferred)
+----------------------
+  <none>
+
+
+
+Port Constraints
+-------------------------------------------------------------------------------
+Type                 Clock Domain         Value         Port
+-------------------------------------------------------------------------------
+Unconstrained        <none>               -            'Data'
+Unconstrained        <none>               -            'ImemD'
+Unconstrained        <none>               -            'SrcBE'
+Unconstrained        <none>               -            'WritetE'
+Unconstrained        <none>               -            'clear'
+Clock                <n/a>                -            'clk'
+Unconstrained        <none>               -            'enable'
+Unconstrained        <none>               -            'imemData'
+Unconstrained        <none>               -            'insF'
+Unconstrained        <none>               -            'rst'
+Unconstrained        <none>               -            'writeData'
+-------------------------------------------------------------------------------
+
+Instance Usage
+===============================================================================
+Count  Module          Location
+-------------------------------------------------------------------------------
+   1   IEx             /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv (Line 324)
+   1   IEx_IMem        /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv (Line 233)
+   1   IF_ID           /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv (Line 301)
+   1   alu             /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv (Line 195)
+   1   alu_reference   /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv (Line 268)
+   1   aludec          /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv (Line 156)
+   1   mux3            /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv (Line 296)
+   1   ovl_zero_one_hot /tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/ovl_zero_one_hot.v (Line 6)
+
+
+

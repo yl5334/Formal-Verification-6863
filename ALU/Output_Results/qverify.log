@@ -1,0 +1,345 @@
+# 
+# Copyright 1995-2018 Mentor Graphics Corporation.
+# All Rights Reserved.
+# 
+# THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION 
+# WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# 
+# THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION
+# 552.  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE
+# UNDER THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# 
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+# 
+# log created Sat Dec 23 22:39:08 2023 by yl5334 on cadpc05
+# 
+# 
+# Command: netlist elaborate
+# Command arguments:
+#     -zdb
+#       /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/DB/zdb_1
+#     -tool propcheck
+#     -d datapath
+#     -cuname datapath
+# 
+# 
+## Elaborating Design...
+# Reading MTI mapping for library mapping
+# Writing all MTI mappings to vmap output ...
+# 
+# Top level modules:
+# 	datapath
+# 
+# Analyzing design...
+# -- Loading module z0in_work.datapath
+# -- Loading module z0in_work.IF_ID
+# -- Loading module z0in_work.mux3
+# -- Loading module z0in_work.aludec
+# -- Loading module z0in_work.alu
+# -- Loading module z0in_work.alu_reference
+# -- Loading module z0in_work.IEx
+# -- Loading module z0in_work.IEx_IMem
+# -- Loading module z0in_work.ovl_zero_one_hot
+# ** Warning: ./datapath.sv(66): (vopt-2241) Connection width does not match width of port 'InstrF'. The port definition is at: ./datapath.sv(302).
+# Warning : Vopt warning.  ./datapath.sv(66): (vopt-2241) Connection width does not match width of port 'InstrF'. The port definition is at: ./datapath.sv(302).  [parser-285]
+#         : Elaboration will continue.
+# Optimizing 9 design-units (inlining 0/9 module instances):
+# -- Optimizing module z0in_work.IF_ID(fast)
+# -- Optimizing module z0in_work.mux3(fast)
+# -- Optimizing module z0in_work.aludec(fast)
+# -- Optimizing module z0in_work.alu(fast)
+# -- Optimizing module z0in_work.alu_reference(fast)
+# -- Optimizing module z0in_work.IEx(fast)
+# -- Optimizing module z0in_work.IEx_IMem(fast)
+# -- Optimizing module z0in_work.ovl_zero_one_hot(fast)
+# -- Optimizing module z0in_work.datapath(fast)
+# Optimized design name is zi_opt_csl_353971377_1
+# Identified prefix 'datapath'.
+# Summary: 1 Warnings in processing "netlist elaborate"
+# End of log Sat Dec 23 22:39:10 2023
+# 
+# 
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+# 
+# log created Sat Dec 23 22:39:10 2023 by yl5334 on cadpc05
+# 
+# 
+# Command: netlist create
+# Command arguments:
+#     -zdb
+#       /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/DB/zdb_1
+#     -tool propcheck
+#     -d datapath
+#     -cuname datapath
+# 
+# 
+## Synthesizing netlist...
+# Processing module 'IF_ID'
+# Elaborating module 'IF_ID'.
+# Processing module 'mux3'
+# Elaborating module 'mux3'.
+# Processing module 'aludec'
+# Elaborating module 'aludec'.
+# Processing module 'alu'
+# Elaborating module 'alu'.
+# Processing module 'alu_reference'
+# Elaborating module 'alu_reference'.
+# Processing module 'IEx'
+# Elaborating module 'IEx'.
+# Processing module 'IEx_IMem'
+# Elaborating module 'IEx_IMem'.
+# Processing module 'ovl_zero_one_hot'
+# Elaborating module 'ovl_zero_one_hot'.
+# Processing module 'datapath'
+# Elaborating module 'datapath'.
+# 
+##Time Taken (Synthesis) = 2030000.000000 ticks = 2.030000 secs
+# 
+# Summary: 1 Warnings in processing "netlist create"
+# End of log Sat Dec 23 22:39:13 2023
+# 
+# 
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+# 
+# log created Sat Dec 23 22:39:13 2023 by yl5334 on cadpc05
+# 
+# 
+# Command: formal compile
+# Command arguments:
+#     -zdb
+#       /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/DB/zdb_1
+#     -d datapath
+#     -cuname datapath
+# 
+# 
+## Processing Formal Logic...
+# Processing module 'IF_ID'
+# Restoring module 'IF_ID'.
+# Processing module 'mux3'
+# Restoring module 'mux3'.
+# Processing module 'aludec'
+# Restoring module 'aludec'.
+# Processing module 'alu'
+# Restoring module 'alu'.
+# Processing module 'alu_reference'
+# Restoring module 'alu_reference'.
+# Processing module 'IEx'
+# Restoring module 'IEx'.
+# Processing module 'IEx_IMem'
+# Restoring module 'IEx_IMem'.
+# Processing module 'ovl_zero_one_hot'
+# Restoring module 'ovl_zero_one_hot'.
+# Processing module 'datapath'
+# Restoring module 'datapath'.
+# Flattening design 'IF_ID'.
+# Flattening design 'mux3'.
+# Flattening design 'aludec'.
+# Flattening design 'alu'.
+# Flattening design 'alu_reference'.
+# Flattening design 'IEx'.
+# Flattening design 'IEx_IMem'.
+# Flattening design 'ovl_zero_one_hot'.
+# Flattening design 'datapath'.
+# Info    : Detected reset.  Reset: rst, polarity: asynchronous, active: high.  [netlist-12]
+# Info    : Detected clock.  Clock: clk, polarity: posedge.  [netlist-11]
+# Info    : Detected clock.  Clock: clk, polarity: negedge.  [netlist-11]
+# Design is processed for formal verification.  Design 'datapath'.
+# 
+# Clocks
+# ------------------------------------------------------------------------------
+# Port                                   Period         Waveform    Edges
+# ------------------------------------------------------------------------------
+# clk                                        10              0 5    PE NE
+# ------------------------------------------------------------------------------
+# 
+# Blackboxes
+# ------------------------------------------------------------------------------
+# Module name                                                Reason
+# ------------------------------------------------------------------------------
+# <no blackboxed modules>
+# ------------------------------------------------------------------------------
+# 
+# Inferred directives
+# ------------------------------------------------------------------------------
+# <no inferred directives>
+# ------------------------------------------------------------------------------
+# 
+# Design is linked for formal analysis.  Design 'datapath'.
+# Formal model has been created.
+# 
+# Property Summary
+# -------------------------------------------------------------------------------
+# Total  Directives :51
+# Assert Directives :29
+# Assume Directives :1
+# Cover  Directives :21
+# 
+# SVA Summary
+# -------------------------------------------------------------------------------
+# SVA Directive Type        Directives           Checkers
+# -------------------------------------------------------------------------------
+# Assert                        29                  29
+# Assume                         1                   1
+# Cover                         21                  21
+# -------------------------------------------------------------------------------
+# 
+# Design Checks Summary
+# -------------------------------------------------------------------------------
+# Check                              Found
+# -------------------------------------------------------------------------------
+# LOGIC_UNDRIVEN                          1
+# -------------------------------------------------------------------------------
+# Total                                  1
+# -------------------------------------------------------------------------------
+# 
+# 
+# To see results in the GUI run:
+# qverify /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/formal_compile.db
+# 
+# 
+# Message Summary
+# ---------------------------------------------------------------------------
+# Count  Type     Message ID         Summary
+# ---------------------------------------------------------------------------
+#     1  Warning  parser-285         Vopt warning.
+#     2  Info     netlist-11         Detected clock.
+#     1  Info     netlist-12         Detected reset.
+# 
+# Summary: 1 Warnings in formal compile
+# Final Process Statistics: Max memory 631MB, CPU time 4s, Total time 7s
+# End of log Sat Dec 23 22:39:15 2023
+# 
+# 
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+# 
+# 
+# Command-line arguments:
+# 	-jobs 4 \ 
+# 	-init qs_files/wb_arbiter.init \ 
+# 	-timeout 5m 
+# 
+# Warning : Deprecated option to '* verify' command.  Option '-init'. Use 'formal init' directive instead.  [formal-303]
+# Info    : Using initialization sequence file to initialize design state.  File '/homes/user/stud/fall23/yl5334/tutorials_6863/ALU/qs_files/wb_arbiter.init'.  [formal-205]
+# Applying synthesis semantics to design: datapath
+# [00:00:00] Status: Done 0/50, Update 0/50, Proof radius min=0, avg=0.00, Mem=0GB
+# [00:00:00] Established connection with process, Hostname=cadpc05, pid=14589.
+# [00:00:00] Established connection with process, Hostname=cadpc05, pid=14592.
+# [00:00:00] Established connection with process, Hostname=cadpc05, pid=14596.
+# [00:00:00] Established connection with process, Hostname=cadpc05, pid=14599.
+# [00:00:00] Proven: ins_stability
+# [00:00:00] Fired @1: ins_latency_checking[0].ins_latency_test
+# [00:00:00] Proven: ins_latency_checking[1].ins_latency_test
+# [00:00:00] Fired @3: ins_latency_checking[2].ins_latency_test
+# [00:00:00] Covered @1: latency_checking[0].valid_latency0
+# [00:00:00] Covered @2: latency_checking[1].valid_latency0
+# [00:00:00] Covered @3: latency_checking[2].valid_latency0
+# [00:00:00] Covered @4: latency_checking[3].valid_latency0
+# [00:00:00] Covered @5: latency_checking[4].valid_latency0
+# [00:00:00] Covered @19: latency_checking[18].valid_latency0
+# [00:00:00] Covered @6: latency_checking[5].valid_latency0
+# [00:00:00] Covered @7: latency_checking[6].valid_latency0
+# [00:00:00] Covered @8: latency_checking[7].valid_latency0
+# [00:00:00] Covered @9: latency_checking[8].valid_latency0
+# [00:00:00] Covered @10: latency_checking[9].valid_latency0
+# [00:00:00] Covered @11: latency_checking[10].valid_latency0
+# [00:00:00] Covered @20: latency_checking[19].valid_latency0
+# [00:00:00] Covered @12: latency_checking[11].valid_latency0
+# [00:00:00] Covered @13: latency_checking[12].valid_latency0
+# [00:00:00] Covered @14: latency_checking[13].valid_latency0
+# [00:00:00] Covered @15: latency_checking[14].valid_latency0
+# [00:00:00] Covered @16: latency_checking[15].valid_latency0
+# [00:00:00] Covered @21: latency_checking[20].valid_latency0
+# [00:00:00] Covered @17: latency_checking[16].valid_latency0
+# [00:00:00] Fired @1: no_overflow
+# [00:00:00] Fired @1: overflow_verify
+# [00:00:00] Covered @18: latency_checking[17].valid_latency0
+# [00:00:00] Proven: overflow_checking
+# [00:00:00] Fired @1: ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P
+# [00:00:00] Proven: arithemic_add_verify
+# [00:00:00] Fired @6: Memory_latency_checking[5].letency_execution
+# [00:00:00] Proven: arithemic_sub_verify
+# [00:00:00] Vacuously Proven: arithemic_and_verify
+# [00:00:00] Vacuously Proven: arithemic_or_verify
+# [00:00:00] Fired @1: execution_latency_checking[0].letency_execution
+# [00:00:00] Fired @5: Memory_latency_checking[4].letency_execution
+# [00:00:00] Proven: execution_latency_checking[1].letency_execution
+# [00:00:00] Fired @3: execution_latency_checking[2].letency_execution
+# [00:00:00] Fired @4: execution_latency_checking[3].letency_execution
+# [00:00:00] Fired @4: Memory_latency_checking[3].letency_execution
+# [00:00:00] Fired @5: execution_latency_checking[4].letency_execution
+# [00:00:00] Fired @6: execution_latency_checking[5].letency_execution
+# [00:00:00] Fired @3: Memory_latency_checking[2].letency_execution
+# [00:00:00] Proven: Memory_latency_checking[1].letency_execution
+# [00:00:00] Fired @1: Memory_latency_checking[0].letency_execution
+# [00:00:00] Fired @3: liveness_checking_ALU_execution
+# [00:00:00] Proven: liveness_checking_ALU
+# [00:00:00] Proven: liveness_checking_ALU_dis
+# [00:00:00] Proven: liveness_checking_datapath
+# [00:00:00] Fired @2: liveness_checking_ALU_Memory
+# [00:00:01] Status: Done 50/50, Update 50/50, Proof radius min=N/A, avg=N/A, Mem=1GB
+# 
+# ---------------------------------------
+# Property Summary                  Count
+# ---------------------------------------
+# Assumed                               1
+# Proven                               12
+#   Vacuous                             2
+# Covered                              21
+# Inconclusive                          0
+# Fired                                17
+#   Fired with Warning                 16
+# Uncoverable                           0
+# ---------------------------------------
+# Total                                51
+# ---------------------------------------
+# 
+# 
+# --------- Process Statistics ----------
+# Elapsed Time                       1 s 
+# -------- Orchestration Process --------
+# ------------ cadpc05:14580 ------------
+# CPU Time                           0 s 
+# Peak Memory                      0.4 GB
+# ---------- Engine Processes -----------
+# ------------ cadpc05:14589 ------------
+# CPU Time                           0 s 
+# Peak Memory                      0.1 GB
+# CPU Utilization                    0 % 
+# ------------ cadpc05:14592 ------------
+# CPU Time                           2 s 
+# Peak Memory                      0.3 GB
+# CPU Utilization                  100 % 
+# ------------ cadpc05:14596 ------------
+# CPU Time                           0 s 
+# Peak Memory                      0.1 GB
+# CPU Utilization                    0 % 
+# ------------ cadpc05:14599 ------------
+# CPU Time                           0 s 
+# Peak Memory                      0.1 GB
+# CPU Utilization                    0 % 
+# ---------------------------------------
+# 
+# 
+# Message Summary
+# ---------------------------------------------------------------------------
+# Count  Type     Message ID         Summary
+# ---------------------------------------------------------------------------
+#     1  Warning  formal-303         Deprecated option to '* verify' command.
+#     1  Info     formal-205         Using initialization sequence file to initialize design state.
+# 
+# Final Process Statistics: Peak Memory 0.36GB, Cumulative CPU Time 2s, Elapsed Time 1s
+# 
+# To see results in the GUI run:
+# qverify /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/formal_verify.db
+# 

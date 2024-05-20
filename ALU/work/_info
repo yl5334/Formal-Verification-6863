@@ -1,0 +1,243 @@
+m255
+K4
+z2
+!s11f vlog 2019.2_1 2019.05, May 13 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/user/stud/fall23/yl5334/tutorials_6863/ALU
+valu
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1703389146
+!i10b 1
+!s100 DYf>90h71i=ICb5Y:?iSl2
+!s11b zof5LRUO65R@=QbLE[GjH2
+I4?Y>z=:Ne76G]zG^gI8cV2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z4 w1703389124
+Z5 8./datapath.sv
+Z6 F./datapath.sv
+L0 195
+Z7 OL;L;2019.2_1;69
+r1
+!s85 0
+31
+Z8 !s108 1703389145.000000
+!s107 /tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/./sva05/ovl_zero_one_hot_logic.sv|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_init.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_task.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_cover.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_clock.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_reset.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_defines.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/ovl_zero_one_hot.v|./datapath.sv|
+Z9 !s90 -sv|./datapath.sv|+libext+.v+.sv|-y|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog|+incdir+/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog|+define+OVL_SVA+OVL_ASSERT_ON+OVL_COVER_ON+OVL_XCHECK_OFF|
+!i113 0
+Z10 o-sv +libext+.v+.sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv +libext+.v+.sv -y /tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog +incdir+/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog +define+OVL_SVA+OVL_ASSERT_ON+OVL_COVER_ON+OVL_XCHECK_OFF -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+valu_reference
+R1
+R2
+!i10b 1
+!s100 oDERdY@D0[Uz9RA7:J7270
+!s11b YiAG;XN;4G?O3eh^5V5ij1
+I=gF:<acXf9P55Y@EW9J:30
+R3
+S1
+R0
+R4
+R5
+R6
+L0 268
+R7
+r1
+!s85 0
+31
+R8
+Z13 !s107 /tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/./sva05/ovl_zero_one_hot_logic.sv|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_init.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_task.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_cover.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_clock.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_reset.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_defines.h|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/ovl_zero_one_hot.v|./datapath.sv|
+R9
+!i113 0
+R10
+R11
+R12
+valudec
+R1
+R2
+!i10b 1
+!s100 Q51bGZSW9Dg4ojZUKolOB3
+!s11b k7[1;nfHC5WD6YaBIIjnX2
+IcHKU8RATl3Nab>jGmT3oX0
+R3
+S1
+R0
+R4
+R5
+R6
+L0 156
+R7
+r1
+!s85 0
+31
+R8
+R13
+R9
+!i113 0
+R10
+R11
+R12
+vdatapath
+R1
+R2
+!i10b 1
+!s100 [DN@=>kZiIB95nMA:k7d13
+!s11b b=@AoTeae3`nQ?VL2`FF[2
+I3i4z4MaU6Ak==mBATiAWn2
+R3
+S1
+R0
+R4
+R5
+R6
+L0 24
+R7
+r1
+!s85 0
+31
+R8
+R13
+R9
+!i113 0
+R10
+R11
+R12
+vIEx
+R1
+R2
+!i10b 1
+!s100 XNj3HhZ^I8M45La3cZ7nl2
+!s11b I46[AEnHKN@18_[deRJ=Y2
+IVQTe@b>C9ELjYDK>WPmAK3
+R3
+S1
+R0
+R4
+R5
+R6
+L0 324
+R7
+r1
+!s85 0
+31
+R8
+R13
+R9
+!i113 0
+R10
+R11
+R12
+n@i@ex
+vIEx_IMem
+R1
+R2
+!i10b 1
+!s100 bZizI5fm8UVdO^8917MRY3
+!s11b ]9oF]Ye:R6h5zmhe7C7n52
+IQch^Gz4dKb57G1T9^^F[>1
+R3
+S1
+R0
+R4
+R5
+R6
+L0 233
+R7
+r1
+!s85 0
+31
+R8
+R13
+R9
+!i113 0
+R10
+R11
+R12
+n@i@ex_@i@mem
+vIF_ID
+R1
+R2
+!i10b 1
+!s100 `[m@fK>hd?Ze7R<QkbKVE1
+!s11b K_0kbzNWZ6Ug1;fX@R=DS0
+I`6Cmg`g6;]46k0k^gD^V81
+R3
+S1
+R0
+R4
+R5
+R6
+L0 301
+R7
+r1
+!s85 0
+31
+R8
+R13
+R9
+!i113 0
+R10
+R11
+R12
+n@i@f_@i@d
+vmux3
+R1
+R2
+!i10b 1
+!s100 feL;PoiN`nPUaEYX5K]J]2
+!s11b KgKZRfldaP>Mk;=SBRWzX3
+IGBo]c_9lPUl=J[aMKTa<]0
+R3
+S1
+R0
+R4
+R5
+R6
+L0 296
+R7
+r1
+!s85 0
+31
+R8
+R13
+R9
+!i113 0
+R10
+R11
+R12
+vovl_zero_one_hot
+R1
+!s110 1703389145
+!i10b 1
+!s100 >AzdO67nXHb<JJnkG=cC40
+!s11b `nMR]VYY:084oSeV]Y6=31
+I3721`z1]lLocQQUBhdTOH2
+R3
+S1
+R0
+w1448446558
+F/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_reset.h
+F/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_clock.h
+F/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_cover.h
+F/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_task.h
+F/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_init.h
+F/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/./sva05/ovl_zero_one_hot_logic.sv
+L0 6
+R7
+r1
+!s85 0
+31
+R8
+R13
+R9
+!i113 0
+R10
+R11
+R12

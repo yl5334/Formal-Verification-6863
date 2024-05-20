@@ -1,0 +1,65 @@
+>8
+v366
+t59
+c60
+#59 p34635 @fifo_equ
+#58 p34408 @zi_property_read_ability_test_fifo_equ_2*i8_2*i1
+#57 p34210 @zi_property_read_empty_fifo_equ_4*i1
+#56 p34014 @zi_property_read_full_fifo_equ_4*i1
+#55 p33816 @zi_property_empty_test_fifo_equ_4*i1
+#54 p33620 @zi_property_full_test_fifo_equ_4*i1
+#53 p33403 @zi_property_read_ability_fifo_equ_2*i8_2*i1
+#52 p33195 @zi_property_read_empty_test_fifo_equ_4*i1
+#51 p32989 @zi_property_read_full_test_fifo_equ_4*i1
+#50 p32779 @zi_property_write_empty_test_fifo_equ_4*i1
+#49 p32571 @zi_property_write_full_test_fifo_equ_4*i1
+#48 p30893 @zi_property_logic_read_ability_test_fifo_equ
+#47 p29274 @zi_property_logic_read_empty_fifo_equ
+#46 p27662 @zi_property_logic_read_full_fifo_equ
+#21 p3441 @zi_mux_o1_3*i1
+#20 p3294 @zi_oper_0_o3_2*i3
+#19 p3147 @zi_oper_1_o3_2*i3
+#18 p3022 @zi_const_3'b1_o3
+#17 p2897 @zi_const_3'b0_o3
+#16 p2734 @zi_mux_o3_i1_2*i3
+#15 p2609 @zi_const_2'h3_o2
+#14 p2484 @zi_const_2'h2_o2
+#13 p2337 @zi_oper_25_o1_2*i1
+#12 p2180 @zi_oper_16_o1_2*i2
+#11 p2048 @zi_oper_24_o1_i1
+#10 p1901 @zi_oper_29_o1_2*i1
+#3 p823 @zi_dff_o1_10*i1
+#2 p548 @zi_dff_o3_i3_5*i1_i3_3*i1
+#1 p273 @zi_dff_o8_i8_5*i1_i8_3*i1
+#0 p0 @zi_dff_o2_i2_5*i1_i2_3*i1
+#4 p1078 @zi_mux_o2_i1_2*i2
+#5 p1240 @zi_const_1'b1_o1
+#6 p1361 @zi_oper_16_o1_2*i1
+#7 p1507 @zi_const_2'b0_o2
+#8 p1631 @zi_const_2'b1_o2
+#9 p1755 @zi_oper_0_o2_2*i2
+#22 p3591 @zi_oper_14_o1_2*i3
+#23 p3748 @zi_const_1'b0_o1
+#24 p3870 @zi_const_29'b0_o29
+#25 p3999 @zi_oper_32_o32_i29_i3
+#26 p4174 @zi_const_32'h3_o32
+#27 p4303 @zi_oper_14_o1_2*i32
+#28 p4462 @zi_select_o8_i1_i8_i1_i8_i1_i8_i1_i8_i1_i8
+#29 p4753 @zi_oper_30_o1_2*i1
+#30 p4900 @zi_const_8'bx_o8
+#31 p5025 @zi_oper_32_o32_4*i8
+#32 p5213 @zi_oper_38_o8_i32
+#33 p5359 @fifo_1366207263
+#34 p15050 @FIFO_gold_1492487954
+#35 p15756 @zi_oper_64_o1_2*i1
+#36 p15903 @zi_assign_o1_i1
+#37 p16031 @zi_oper_14_o1_2*i1
+#38 p16178 @zi_property_logic_write_full_test_fifo_equ
+#39 p17791 @zi_property_logic_write_empty_test_fifo_equ
+#40 p19411 @zi_property_logic_read_full_test_fifo_equ
+#41 p21018 @zi_property_logic_read_empty_test_fifo_equ
+#42 p22632 @zi_oper_14_o1_2*i8
+#43 p22789 @zi_property_logic_read_ability_fifo_equ
+#44 p24430 @zi_property_logic_full_test_fifo_equ
+#45 p26041 @zi_property_logic_empty_test_fifo_equ
+<8

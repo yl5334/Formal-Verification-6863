@@ -1,0 +1,48 @@
+VISUALIZERROOT = '/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/linux_x86_64/Visualizer'
+USER = 'yl5334'
+Loading tcl script /tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/linux_x86_64/Visualizer/lib/visualizer/tclscripts/designutil.tcl
+Done loading tcl script </tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/linux_x86_64/Visualizer/lib/visualizer/tclscripts/designutil.tcl>
+Server Initialized ...
+Mentor Graphics software version 2019.2_1 (Build on May 13 2019)
+Copyright (C) 1999-2023 by Mentor Graphics All rights reserved.
+   from_mega_agent
+   +outputDir+/tmp/visscratch.aI9G3o
+   +tcl
+   -I/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/../tb/incl
+   +designfile+/homes/user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/Output_Results/qcache/VISUALIZER/design.bin
+   +show_pi_drvr_rcvr
+   +max_drv_rec_cnt=10000
+   +no_splash
+   +visformal
+   +external_client
+   +designfile+design.bin
+   +designfile+Output_Results/qcache/VISUALIZER/design.bin
+   +convertvhdlgenbracket
+
+Command line option(s) :
+   +outputDir+/tmp/visscratch.aI9G3o
+   +tcl
+   -I/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/../tb/incl
+   +designfile+/homes/user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/Output_Results/qcache/VISUALIZER/design.bin
+   +show_pi_drvr_rcvr
+   +max_drv_rec_cnt=10000
+   +no_splash
+   +visformal
+   +external_client
+   +designfile+design.bin
+   +designfile+Output_Results/qcache/VISUALIZER/design.bin
+   +convertvhdlgenbracket
+
+New PLI Id assignment (at parsing time) will be used.
+Creating var connectivity .......
+Done Creating var connectivity .......
+Design Statistics
+              Always = 4
+          SVA-Assert = 2
+           SVA-Cover = 7
+End of Design Statistics
+design loaded ...
+Reading file /homes/user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv
+LICENSE ERROR: request failed: 
+//  All licenses for feature znvisualizer are in use.
+FLEX ERROR: -4: feature: znvisualizer server: 1720@bioeelincad.ee.columbia.edu - Licensed number of users already reached.

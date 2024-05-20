@@ -1,0 +1,542 @@
+>1
+>2
+10
+0:15:IF_ID_676035615
+1:5:IF_ID
+2:4:work
+3:55:/user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv
+4:5:clear
+5:3:clk
+6:6:enable
+7:6:InstrD
+8:6:InstrF
+9:5:reset
+<2
+>3
+3
+0:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:121:10 "logic[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+2:123:10 "scalar[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+e1b2f3l301.322t0;
+<4
+>5
+b6@4l301knt0;
+@5l301knt0;
+@6l301knt0;
+@7l303knt1;
+@8l302knt2;
+@9l301knt0;
+<5
+>6
+b6@5l303x2t0;
+@9l303x6t0;
+@4l303x1t0;
+@6l303x3t0;
+@8l303x5t2;
+@7l303d1x4t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+9
+0:14:mux3_134733644
+1:4:mux3
+2:4:work
+3:55:/user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv
+4:2:d0
+5:2:d1
+6:2:d2
+7:1:s
+8:1:y
+<2
+>3
+4
+0:116:10 "d1" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:126:10 "scalar[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:124:10 "logic[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#1e1b2f3l296.298t0;
+<4
+>5
+b5@4l296knt0;
+@5l296knt1;
+@6l296knt1;
+@7l296knt2;
+@8l296knt3;
+<5
+>6
+b5@4l296x1t0;
+@5l296x2t1;
+@6l296x3t1;
+@7l296x4t2;
+@8l296d1x5t3;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+10
+0:17:aludec_1155326527
+1:6:aludec
+2:4:work
+3:55:/user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv
+4:10:ALUControl
+5:5:ALUOp
+6:6:funct3
+7:8:funct7b5
+8:4:opb5
+9:8:RtypeSub
+<2
+>3
+5
+0:121:10 "logic[3:0]" "<zin_internal>" 0 4 1 7 "integer[3:0]" "<zin_internal>" 0 10 32 3 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+1:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:123:10 "scalar[2:0]" "<zin_internal>" 0 4 1 7 "integer[2:0]" "<zin_internal>" 0 10 32 2 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:36:7 "logic" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#2e1b2f3l156.187t0;
+<4
+>5
+b6@4l160knt0;
+@5l159knt1;
+@6l157knt2;
+@7l158knt3;
+@8l156knt3;
+@9l162knt4;
+<5
+>6
+b5@8l162x5t3;
+@6l162x3t2;
+@7l162x4t3;
+@5l162x2t1;
+@4l162d1x1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+12
+0:14:alu_1660738170
+1:3:alu
+2:4:work
+3:55:/user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv
+4:10:ALUControl
+5:9:ALUResult
+6:8:Overflow
+7:4:Sign
+8:4:SrcA
+9:4:SrcB
+10:3:Sum
+11:4:Zero
+<2
+>3
+4
+0:123:10 "scalar[3:0]" "<zin_internal>" 0 4 1 7 "integer[3:0]" "<zin_internal>" 0 10 32 3 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:124:10 "logic[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+2:36:7 "logic" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#3e1b2f3l195.227t0;
+<4
+>5
+b8@4l197knt0;
+@5l198knt1;
+@6l199knt2;
+@7l199knt2;
+@8l195knt3;
+@9l196knt3;
+@10l201knt1;
+@11l199knt2;
+<5
+>6
+b7@8l201x5t3;
+@9l201x6t3;
+@4l201x1t0;
+@5l201d1x2t1;
+@11l201d1x8t2;
+@7l201d1x4t2;
+@6l201d1x3t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+11
+0:23:alu_reference_481715184
+1:13:alu_reference
+2:4:work
+3:55:/user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv
+4:10:ALUControl
+5:9:ALUResult
+6:8:Overflow
+7:4:Sign
+8:4:SrcA
+9:4:SrcB
+10:4:Zero
+<2
+>3
+4
+0:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:124:10 "logic[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+2:36:7 "logic" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#4e1b2f3l268.294t0;
+<4
+>5
+b7@4l270knt0;
+@5l271knt1;
+@6l272knt2;
+@7l272knt2;
+@8l268knt3;
+@9l269knt3;
+@10l272knt2;
+<5
+>6
+b7@8l272x5t3;
+@9l272x6t3;
+@4l272x1t0;
+@5l272d1x2t1;
+@10l272d1x7t2;
+@7l272d1x4t2;
+@6l272d1x3t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+8
+0:13:IEx_771201498
+1:3:IEx
+2:4:work
+3:55:/user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv
+4:9:ALUResult
+5:10:ALUResultE
+6:3:clk
+7:5:reset
+<2
+>3
+3
+0:126:10 "scalar[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:124:10 "logic[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#5e1b2f3l324.339t0;
+<4
+>5
+b4@4l325knt0;
+@5l326knt1;
+@6l324knt2;
+@7l324knt2;
+<5
+>6
+b4@6l326x3t2;
+@7l326x4t2;
+@4l326x1t0;
+@5l326d1x2t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+8
+0:19:IEx_IMem_1806894466
+1:8:IEx_IMem
+2:4:work
+3:55:/user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv
+4:10:ALUResultE
+5:10:ALUResultM
+6:3:clk
+7:5:reset
+<2
+>3
+3
+0:126:10 "scalar[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:124:10 "logic[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#6e1b2f3l233.248t0;
+<4
+>5
+b4@4l234knt0;
+@5l235knt1;
+@6l233knt2;
+@7l233knt2;
+<5
+>6
+b4@6l235x3t2;
+@7l235x4t2;
+@4l235x1t0;
+@5l235d1x2t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+56
+0:26:ovl_zero_one_hot_435720148
+1:16:ovl_zero_one_hot
+2:4:work
+3:93:/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/ovl_zero_one_hot.v
+4:10:ovl_assert
+5:106:/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/sva05/ovl_zero_one_hot_logic.sv
+6:9:ovl_cover
+7:7:genblk1
+8:7:genblk2
+9:11:assert_name
+10:37:128'h4f564c5f5a45524f5f4f4e455f484f54
+11:10:clock_edge
+12:5:32'b1
+13:14:coverage_level
+14:5:32'h2
+15:11:gating_type
+16:3:msg
+17:22:72'h56494f4c4154494f4e
+18:90:/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_cover.h
+19:18:OVL_COVER_BASIC_ON
+20:19:OVL_COVER_CORNER_ON
+21:5:32'b0
+22:19:OVL_COVER_SANITY_ON
+23:22:OVL_COVER_STATISTIC_ON
+24:13:property_type
+25:14:reset_polarity
+26:14:severity_level
+27:5:width
+28:90:/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_clock.h
+29:3:clk
+30:5:clken
+31:5:clock
+32:89:/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_task.h
+33:11:cover_count
+34:6:enable
+35:11:error_count
+36:4:fire
+37:11:fire_2state
+38:10:fire_cover
+39:11:fire_xcheck
+40:4:gclk
+41:90:/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/std_ovl_reset.h
+42:6:greset
+43:4:log2
+44:16:one_hots_checked
+45:11:ovl_cover_t
+46:11:ovl_error_t
+47:12:ovl_finish_t
+48:17:ovl_fire_2state_f
+49:16:ovl_fire_cover_f
+50:17:ovl_fire_xcheck_f
+51:14:ovl_init_msg_t
+52:5:reset
+53:7:reset_n
+54:9:test_expr
+55:11:test_expr_1
+<2
+>3
+9
+0:124:10 "bit[127:0]" "<zin_internal>" 0 36 1 7 "integer[127:0]" "<zin_internal>" 0 10 32 127 0 7 "bit" "<zin_internal>" 0 0 1 0 0
+1:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+2:121:10 "bit[71:0]" "<zin_internal>" 0 36 1 7 "integer[71:0]" "<zin_internal>" 0 10 32 71 0 7 "bit" "<zin_internal>" 0 0 1 0 0
+3:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:59:7 "integer" "<zin_internal>" 0 10 32 -2147483648 2147483647
+5:123:10 "scalar[2:0]" "<zin_internal>" 0 4 1 7 "integer[2:0]" "<zin_internal>" 0 10 32 2 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+6:34:7 "bit" "<zin_internal>" 0 0 1 0 0
+7:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+8:123:10 "scalar[0:0]" "<zin_internal>" 0 4 1 7 "integer[0:0]" "<zin_internal>" 0 10 32 0 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#7e1b2f3l6.44t0C4B4P5S40E63B6P5S96E140B7P5S107E107B8P5S140E140c13p9v10F0L23T0U0p11v12F0L14T1U0p13v14F0L12T1U0p15v12F0L16T1U0p16v17F0L11T2U0p19v14F18L7T1U0p20v21F18L8T1U0p22v21F18L6T1U0p23v21F18L9T1U0p24v21F0L10T1U0p25v21F0L15T1U0p26v12F0L8T1U0p27v14F0L9T1U0;
+<4
+>5
+b25@29l4f28knt3;
+@30l13f28knt3;
+@31l18knt3;
+@33l7f32knt4;
+@34l18knt3;
+@35l6f32knt4;
+@36l20knt5;
+@37l4f5knt6;
+@38l4f5knt6;
+@39l4f5knt6;
+@40l7f28knt3;
+@42l7f41knt3;
+@43l142f32knt4;
+@44l92f5knt7;
+@45l117f32knt8;
+@46l13f32knt8;
+@47l79f32knt8;
+@48l157f32knt3;
+@49l193f32knt3;
+@50l173f32knt3;
+@51l89f32knt8;
+@52l18knt3;
+@53l4f41knt3;
+@54l19knt7;
+@55l91f5knt7;
+<5
+>6
+b5@31l193x3t3;
+@52l193x22t3;
+@34l193x5t3;
+@54l193x24t7;
+@36l193d1x7t5;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+47
+0:8:datapath
+1:4:work
+2:55:/user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv
+3:23:ins_latency_checking[0]
+4:19:latency_checking[0]
+5:29:execution_latency_checking[0]
+6:26:Memory_latency_checking[0]
+7:5:ALU_o
+8:10:ALUControl
+9:5:ALUOP
+10:9:ALUResult
+11:13:ALUResult_ref
+12:10:ALUResultE
+13:10:ALUResultM
+14:5:clear
+15:3:clk
+16:4:Data
+17:6:enable
+18:8:fire_mux
+19:6:funct3
+20:8:funct7b5
+21:5:ImemD
+22:8:imemData
+23:3:ins
+24:4:insF
+25:10:mux_select
+26:4:opb5
+27:8:Overflow
+28:8:overflow
+29:12:Overflow_ref
+30:3:rst
+31:4:Sign
+32:8:Sign_ref
+33:5:SrcAE
+34:5:SrcBE
+35:9:writeData
+36:7:WritetE
+37:4:Zero
+38:8:Zero_ref
+39:3:ALU
+40:7:ALU_ref
+41:7:Decoder
+42:9:Execution
+43:2:IF
+44:6:Memory
+45:4:MUX3
+46:22:ovl_zero_one_hot_check
+<2
+>3
+12
+0:124:10 "logic[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+1:121:10 "logic[3:0]" "<zin_internal>" 0 4 1 7 "integer[3:0]" "<zin_internal>" 0 10 32 3 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+2:121:10 "logic[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+3:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+5:123:10 "scalar[2:0]" "<zin_internal>" 0 4 1 7 "integer[2:0]" "<zin_internal>" 0 10 32 2 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+6:121:10 "logic[2:0]" "<zin_internal>" 0 4 1 7 "integer[2:0]" "<zin_internal>" 0 10 32 2 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+7:36:7 "logic" "<zin_internal>" 0 0 1 0 0
+8:126:10 "scalar[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+9:121:10 "logic[8:0]" "<zin_internal>" 0 4 1 7 "integer[8:0]" "<zin_internal>" 0 10 32 8 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+10:123:10 "scalar[8:0]" "<zin_internal>" 0 4 1 7 "integer[8:0]" "<zin_internal>" 0 10 32 8 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+11:129:10 "imemData" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+<3
+>4
+#8b1f2l24.145t0C4B3P2S85E87B4P2S100E102B5P2S125E127B6P2S137E139;
+<4
+>5
+b32@7l46knt0;
+@8l41knt1;
+@9l44knt2;
+@10l50knt0;
+@11l51knt0;
+@12l52knt0;
+@13l36knt0;
+@14l27knt3;
+@15l25knt3;
+@16l34knt4;
+@17l28knt3;
+@18l63knt5;
+@19l43knt6;
+@20l42knt7;
+@21l32knt8;
+@22l34knt4;
+@23l49knt9;
+@24l29knt10;
+@25l47knt2;
+@26l42knt7;
+@27l45knt7;
+@28l56knt3;
+@29l53knt7;
+@30l26knt3;
+@31l37knt7;
+@32l53knt7;
+@33l48knt0;
+@34l33knt4;
+@35l34knt11;
+@36l30knt8;
+@37l37knt7;
+@38l53knt7;
+<5
+>6
+b14@15x9t3;
+@30x24t3;
+@14x8t3;
+@17x11t3;
+@24x18t10;
+@36x30t8;
+@21x15t8;
+@34x28t4;
+@35x29t11;
+@22x16t4;
+@16x10t4;
+@13d1x7t0;
+@37d1x31t7;
+@31d1x25t7;
+<6
+>7
+c8
+#3@39i50l72x3 7 0 24;
+#4@40i51l73x3 7 0 24;
+#2@41i49l71x3 7 0 16;
+#5@42i52l76x3 7 0 12;
+@43i47l66x3 7 0 20;
+#6@44i53l79x3 7 0 12;
+#1@45i48l68x3 7 0 16;
+#7@46i54l93x3 7 0 16;
+<7
+<1

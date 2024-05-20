@@ -1,0 +1,203 @@
+>1
+>2
+21
+0:15:fifo_1366207263
+1:4:fifo
+2:4:work
+3:56:/user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv
+4:7:ENTRIES
+5:5:32'h4
+6:12:ENTRIES_LOG2
+7:5:32'h2
+8:3:clk
+9:9:fifo_data
+10:4:head
+11:12:in_read_ctrl
+12:13:in_write_ctrl
+13:13:in_write_data
+14:25:number_of_current_entries
+15:12:out_is_empty
+16:11:out_is_full
+17:13:out_read_data
+18:8:read_ptr
+19:3:rst
+20:9:write_ptr
+<2
+>3
+7
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:126:10 "scalar[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:36:7 "logic" "<zin_internal>" 0 0 1 0 0
+3:211:10 "logic[3:0][7:0]" "<zin_internal>" 0 4 1 7 "integer[3:0]" "<zin_internal>" 0 10 32 3 0 10 "logic[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+4:121:10 "logic[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+5:121:10 "logic[2:0]" "<zin_internal>" 0 4 1 7 "integer[2:0]" "<zin_internal>" 0 10 32 2 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+6:121:10 "logic[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+e1b2f3l50.139t0c2p4v5F0L56T0U0p6v7F0L59T1U0;
+<4
+>5
+b13@8l61knt2;
+@9l72knt3;
+@10l73knt4;
+@11l63knt2;
+@12l64knt2;
+@13l65knt4;
+@14l74knt5;
+@15l68knt2;
+@16l67knt2;
+@17l66knt4;
+@18l71knt6;
+@19l62knt2;
+@20l70knt6;
+<5
+>6
+b8@8l74x1t2;
+@19l74x12t2;
+@11l74x4t2;
+@12l74x5t2;
+@13l74x6t4;
+@17l74d1x10t4;
+@16l74d1x9t2;
+@15l74d1x8t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+23
+0:20:FIFO_gold_1492487954
+1:9:FIFO_gold
+2:4:work
+3:56:/user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv
+4:9:DataWidth
+5:5:32'h8
+6:5:Depth
+7:5:32'h4
+8:8:PtrWidth
+9:5:32'h2
+10:3:clk
+11:5:empty
+12:4:full
+13:3:mem
+14:5:rdPtr
+15:9:rdPtrNext
+16:8:readData
+17:6:readEn
+18:4:rstN
+19:9:writeData
+20:7:writeEn
+21:5:wrPtr
+22:9:wrPtrNext
+<2
+>3
+7
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:36:7 "logic" "<zin_internal>" 0 0 1 0 0
+3:211:10 "logic[0:3][7:0]" "<zin_internal>" 0 0 1 7 "integer[0:3]" "<zin_internal>" 0 10 32 0 3 10 "logic[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+4:121:10 "logic[2:0]" "<zin_internal>" 0 4 1 7 "integer[2:0]" "<zin_internal>" 0 10 32 2 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+5:121:10 "logic[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+6:123:10 "scalar[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#1e1b2f3l143.190t0c3p4v5F0L144T0U0p6v7F0L145T0U0p8v9F0L146T0U0;
+<4
+>5
+b13@10l148knt1;
+@11l155knt2;
+@12l154knt2;
+@13l158knt3;
+@14l160knt4;
+@15l160knt4;
+@16l153knt5;
+@17l152knt1;
+@18l149knt1;
+@19l151knt6;
+@20l150knt1;
+@21l159knt4;
+@22l159knt4;
+<5
+>6
+b8@10l160x1t1;
+@18l160x9t1;
+@20l160x11t1;
+@19l160x10t6;
+@17l160x8t1;
+@16l160d1x7t5;
+@12l160d1x3t2;
+@11l160d1x2t2;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+20
+0:8:fifo_equ
+1:4:work
+2:56:/user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv
+3:3:clk
+4:5:empty
+5:4:full
+6:10:gold_empty
+7:9:gold_full
+8:13:gold_readData
+9:7:o_empty
+10:6:o_full
+11:10:o_readData
+12:8:readData
+13:6:readEn
+14:3:rst
+15:9:writeData
+16:7:writeEn
+17:4:fifo
+18:6:fifo_o
+19:4:gold
+<2
+>3
+4
+0:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:36:7 "logic" "<zin_internal>" 0 0 1 0 0
+2:121:10 "logic[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+3:123:10 "scalar[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#2b1f2l1.45t0;
+<4
+>5
+b14@3l2knt0;
+@4l9knt1;
+@5l8knt1;
+@6l13knt1;
+@7l13knt1;
+@8l14knt2;
+@9l11knt1;
+@10l11knt1;
+@11l12knt2;
+@12l7knt2;
+@13l6knt0;
+@14l3knt0;
+@15l5knt3;
+@16l4knt0;
+<5
+>6
+b8@3x1t0;
+@14x12t0;
+@16x14t0;
+@15x13t3;
+@13x11t0;
+@12d1x10t2;
+@5d1x3t1;
+@4d1x2t1;
+<6
+>7
+c3
+@17i24l20x3 7 0 28;
+@18i23l17x3 7 0 28;
+#1@19i25l24x3 7 0 28;
+<7
+<1

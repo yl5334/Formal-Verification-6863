@@ -1,0 +1,349 @@
+
+
+===============================================================================
+Module: datapath
+===============================================================================
+Summary
+-------------------------------------------------------------------------------
+Assertions   : 28 
+Assumptions  : 1 
+Covers       : 21 
+-------------------------------------------------------------------------------
+assert ins_stability (sva)
+  Instance: datapath.ins_stability
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 83
+  Severity: error
+  Stats:   depth=1 gates=6 flops=0
+
+assert ins_latency_checking[0].ins_latency_test (sva)
+  Instance: datapath.ins_latency_checking[0].ins_latency_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 86
+  Severity: error
+  Stats:   depth=1 gates=6 flops=0
+
+assert ins_latency_checking[1].ins_latency_test (sva)
+  Instance: datapath.ins_latency_checking[1].ins_latency_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 86
+  Severity: error
+  Stats:   depth=2 gates=8 flops=2
+
+assert ins_latency_checking[2].ins_latency_test (sva)
+  Instance: datapath.ins_latency_checking[2].ins_latency_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 86
+  Severity: error
+  Stats:   depth=3 gates=9 flops=3
+
+assert no_overflow (sva)
+  Instance: datapath.no_overflow
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 106
+  Severity: error
+  Stats:   depth=1 gates=6 flops=0
+
+assert overflow_verify (sva)
+  Instance: datapath.overflow_verify
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 107
+  Severity: error
+  Stats:   depth=1 gates=2 flops=0
+
+assert overflow_checking (sva)
+  Instance: datapath.overflow_checking
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 108
+  Severity: error
+  Stats:   depth=1 gates=6 flops=0
+
+assert arithemic_add_verify (sva)
+  Instance: datapath.arithemic_add_verify
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 112
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert arithemic_sub_verify (sva)
+  Instance: datapath.arithemic_sub_verify
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 113
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert arithemic_and_verify (sva)
+  Instance: datapath.arithemic_and_verify
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 114
+  Severity: error
+  Stats:   depth=1 gates=0 flops=0
+  SELF_VACUOUS (Self vacuous property) (warning) 
+
+assert arithemic_or_verify (sva)
+  Instance: datapath.arithemic_or_verify
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 115
+  Severity: error
+  Stats:   depth=1 gates=0 flops=0
+  SELF_VACUOUS (Self vacuous property) (warning) 
+
+assert liveness_checking_ALU (sva)
+  Instance: datapath.liveness_checking_ALU
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 120
+  Severity: error
+  Stats:  gates=9 flops=3
+  PURE_LIVENESS (Pure liveness property)
+
+assert liveness_checking_ALU_dis (sva)
+  Instance: datapath.liveness_checking_ALU_dis
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 122
+  Severity: error
+  Stats:  gates=16 flops=3
+  PURE_LIVENESS (Pure liveness property)
+
+assert execution_latency_checking[0].letency_execution (sva)
+  Instance: datapath.execution_latency_checking[0].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 126
+  Severity: error
+  Stats:   depth=1 gates=12 flops=0
+
+assert execution_latency_checking[1].letency_execution (sva)
+  Instance: datapath.execution_latency_checking[1].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 126
+  Severity: error
+  Stats:   depth=2 gates=23 flops=2
+
+assert execution_latency_checking[2].letency_execution (sva)
+  Instance: datapath.execution_latency_checking[2].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 126
+  Severity: error
+  Stats:   depth=3 gates=27 flops=3
+
+assert execution_latency_checking[3].letency_execution (sva)
+  Instance: datapath.execution_latency_checking[3].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 126
+  Severity: error
+  Stats:   depth=4 gates=31 flops=4
+
+assert execution_latency_checking[4].letency_execution (sva)
+  Instance: datapath.execution_latency_checking[4].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 126
+  Severity: error
+  Stats:   depth=5 gates=35 flops=5
+
+assert execution_latency_checking[5].letency_execution (sva)
+  Instance: datapath.execution_latency_checking[5].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 126
+  Severity: error
+  Stats:   depth=6 gates=39 flops=6
+
+assert liveness_checking_datapath (sva)
+  Instance: datapath.liveness_checking_datapath
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 130
+  Severity: error
+  Stats:  gates=11 flops=3
+  PURE_LIVENESS (Pure liveness property)
+
+assert liveness_checking_ALU_execution (sva)
+  Instance: datapath.liveness_checking_ALU_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 132
+  Severity: error
+  Stats:   depth=3 gates=27 flops=3
+
+assert liveness_checking_ALU_Memory (sva)
+  Instance: datapath.liveness_checking_ALU_Memory
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 134
+  Severity: error
+  Stats:  gates=18 flops=3
+  PURE_LIVENESS (Pure liveness property)
+
+assert Memory_latency_checking[0].letency_execution (sva)
+  Instance: datapath.Memory_latency_checking[0].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 138
+  Severity: error
+  Stats:   depth=1 gates=12 flops=0
+
+assert Memory_latency_checking[1].letency_execution (sva)
+  Instance: datapath.Memory_latency_checking[1].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 138
+  Severity: error
+  Stats:   depth=2 gates=23 flops=2
+
+assert Memory_latency_checking[2].letency_execution (sva)
+  Instance: datapath.Memory_latency_checking[2].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 138
+  Severity: error
+  Stats:   depth=3 gates=27 flops=3
+
+assert Memory_latency_checking[3].letency_execution (sva)
+  Instance: datapath.Memory_latency_checking[3].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 138
+  Severity: error
+  Stats:   depth=4 gates=31 flops=4
+
+assert Memory_latency_checking[4].letency_execution (sva)
+  Instance: datapath.Memory_latency_checking[4].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 138
+  Severity: error
+  Stats:   depth=5 gates=35 flops=5
+
+assert Memory_latency_checking[5].letency_execution (sva)
+  Instance: datapath.Memory_latency_checking[5].letency_execution
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 138
+  Severity: error
+  Stats:   depth=6 gates=39 flops=6
+
+assume ovl_check (sva)
+  Instance: datapath.ovl_check
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 96
+  Severity: error
+  Stats:   depth=1 gates=0 flops=0
+  ALWAYS_PASSES (Property always passes) (warning) 
+
+cover latency_checking[0].valid_latency0 (sva)
+  Instance: datapath.latency_checking[0].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=1 gates=5 flops=0
+
+cover latency_checking[1].valid_latency0 (sva)
+  Instance: datapath.latency_checking[1].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=2 gates=7 flops=2
+
+cover latency_checking[2].valid_latency0 (sva)
+  Instance: datapath.latency_checking[2].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=3 gates=8 flops=3
+
+cover latency_checking[3].valid_latency0 (sva)
+  Instance: datapath.latency_checking[3].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=4 gates=9 flops=4
+
+cover latency_checking[4].valid_latency0 (sva)
+  Instance: datapath.latency_checking[4].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=5 gates=10 flops=5
+
+cover latency_checking[5].valid_latency0 (sva)
+  Instance: datapath.latency_checking[5].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=6 gates=11 flops=6
+
+cover latency_checking[6].valid_latency0 (sva)
+  Instance: datapath.latency_checking[6].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=7 gates=12 flops=7
+
+cover latency_checking[7].valid_latency0 (sva)
+  Instance: datapath.latency_checking[7].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=8 gates=13 flops=8
+
+cover latency_checking[8].valid_latency0 (sva)
+  Instance: datapath.latency_checking[8].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=9 gates=14 flops=9
+
+cover latency_checking[9].valid_latency0 (sva)
+  Instance: datapath.latency_checking[9].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=10 gates=15 flops=10
+
+cover latency_checking[10].valid_latency0 (sva)
+  Instance: datapath.latency_checking[10].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=11 gates=16 flops=11
+
+cover latency_checking[11].valid_latency0 (sva)
+  Instance: datapath.latency_checking[11].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=12 gates=17 flops=12
+
+cover latency_checking[12].valid_latency0 (sva)
+  Instance: datapath.latency_checking[12].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=13 gates=18 flops=13
+
+cover latency_checking[13].valid_latency0 (sva)
+  Instance: datapath.latency_checking[13].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=14 gates=19 flops=14
+
+cover latency_checking[14].valid_latency0 (sva)
+  Instance: datapath.latency_checking[14].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=15 gates=20 flops=15
+
+cover latency_checking[15].valid_latency0 (sva)
+  Instance: datapath.latency_checking[15].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=16 gates=21 flops=16
+
+cover latency_checking[16].valid_latency0 (sva)
+  Instance: datapath.latency_checking[16].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=17 gates=22 flops=17
+
+cover latency_checking[17].valid_latency0 (sva)
+  Instance: datapath.latency_checking[17].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=18 gates=23 flops=18
+
+cover latency_checking[18].valid_latency0 (sva)
+  Instance: datapath.latency_checking[18].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=19 gates=24 flops=19
+
+cover latency_checking[19].valid_latency0 (sva)
+  Instance: datapath.latency_checking[19].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=20 gates=25 flops=20
+
+cover latency_checking[20].valid_latency0 (sva)
+  Instance: datapath.latency_checking[20].valid_latency0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 101
+  Severity: info
+  Stats:   depth=21 gates=26 flops=21
+
+
+===============================================================================
+Module: ovl_zero_one_hot
+===============================================================================
+Parameters: 
+    parameter  severity_level = 1
+    parameter  width = 2
+    parameter  property_type = 0
+    parameter  msg = VIOLATION
+    parameter  coverage_level = 2
+    parameter  clock_edge = 1
+    parameter  reset_polarity = 0
+    parameter  gating_type = 1
+    parameter  assert_name = OVL_ZERO_ONE_HOT
+    parameter  OVL_COVER_SANITY_ON = 0
+    parameter  OVL_COVER_BASIC_ON = 2
+    parameter  OVL_COVER_CORNER_ON = 0
+    parameter  OVL_COVER_STATISTIC_ON = 0
+Summary
+-------------------------------------------------------------------------------
+Assertions   : 1 
+Assumptions  : 0 
+Covers       : 0 
+-------------------------------------------------------------------------------
+assert ovl_assert.A_ASSERT_ZERO_ONE_HOT_P (sva)
+  Instance: ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P
+  Location: File /tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog/sva05/ovl_zero_one_hot_logic.sv, Line 42
+  Severity: info
+  Message: VIOLATION
+  Stats:   depth=1 gates=10 flops=0
+

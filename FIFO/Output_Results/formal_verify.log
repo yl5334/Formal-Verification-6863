@@ -1,0 +1,81 @@
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+
+
+Command-line arguments:
+	-jobs 4 \ 
+	-init qs_files/wb_arbiter.init \ 
+	-timeout 5m 
+
+Warning : Deprecated option to '* verify' command.  Option '-init'. Use 'formal init' directive instead.  [formal-303]
+Info    : Using initialization sequence file to initialize design state.  File '/homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/qs_files/wb_arbiter.init'.  [formal-205]
+Applying synthesis semantics to design: fifo_equ
+[00:00:00] Status: Done 0/10, Update 0/10, Proof radius min=0, avg=0.0, Mem=0GB
+[00:00:00] Established connection with process, Hostname=cadpc28, pid=511.
+[00:00:00] Established connection with process, Hostname=cadpc28, pid=514.
+[00:00:00] Established connection with process, Hostname=cadpc28, pid=518.
+[00:00:00] Established connection with process, Hostname=cadpc28, pid=524.
+[00:00:00] Fired @1: read_ability
+[00:00:00] Fired @1: write_full_test
+[00:00:00] Fired @1: write_empty_test
+[00:00:00] Fired @1: read_full_test
+[00:00:00] Fired @1: read_empty_test
+[00:00:00] Fired @1: read_ability_test
+[00:00:00] Proven: full_test
+[00:00:00] Proven: read_empty
+[00:00:00] Proven: empty_test
+[00:00:00] Proven: read_full
+[00:00:01] Status: Done 10/10, Update 10/10, Proof radius min=N/A, avg=N/A, Mem=1GB
+
+---------------------------------------
+Property Summary                  Count
+---------------------------------------
+Assumed                               0
+Proven                                4
+Inconclusive                          0
+Fired                                 6
+  Fired with Warning                  6
+---------------------------------------
+Total                                10
+---------------------------------------
+
+
+--------- Process Statistics ----------
+Elapsed Time                       1 s 
+-------- Orchestration Process --------
+------------- cadpc28:499 -------------
+CPU Time                           0 s 
+Peak Memory                      0.4 GB
+---------- Engine Processes -----------
+------------- cadpc28:511 -------------
+CPU Time                           0 s 
+Peak Memory                      0.1 GB
+CPU Utilization                    0 % 
+------------- cadpc28:514 -------------
+CPU Time                           1 s 
+Peak Memory                      0.3 GB
+CPU Utilization                  100 % 
+------------- cadpc28:518 -------------
+CPU Time                           0 s 
+Peak Memory                      0.1 GB
+CPU Utilization                    0 % 
+------------- cadpc28:524 -------------
+CPU Time                           0 s 
+Peak Memory                      0.1 GB
+CPU Utilization                    0 % 
+---------------------------------------
+
+
+Message Summary
+---------------------------------------------------------------------------
+Count  Type     Message ID         Summary
+---------------------------------------------------------------------------
+    1  Warning  formal-303         Deprecated option to '* verify' command.
+    1  Info     formal-205         Using initialization sequence file to initialize design state.
+
+Final Process Statistics: Peak Memory 0.36GB, Cumulative CPU Time 1s, Elapsed Time 1s
+
+To see results in the GUI run:
+qverify /homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/Output_Results/formal_verify.db
+

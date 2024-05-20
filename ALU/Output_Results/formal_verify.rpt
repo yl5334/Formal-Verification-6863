@@ -1,0 +1,397 @@
+-------------------------------------------------------------------------------
+Questa PropCheck Version 2019.2_1 linux_x86_64 18 May 2019
+-------------------------------------------------------------------------------
+Report Generated               : Sat Dec 23 22:39:16 2023
+-------------------------------------------------------------------------------
+
+Command-line arguments:
+	-jobs 4 \ 
+	-init qs_files/wb_arbiter.init \ 
+	-timeout 5m 
+
+-------------------------------------------------------------------------------
+
+Clock Relationships
+-------------------------------------------------------------------------------
+clk : PN
+
+
+Port Constraints
+-------------------------------------------------------------------------------
+Type                 Clock Domain         Value         Port
+-------------------------------------------------------------------------------
+Unconstrained        <none>               -            'Data'
+Unconstrained        <none>               -            'ImemD'
+Unconstrained        <none>               -            'SrcBE'
+Unconstrained        <none>               -            'WritetE'
+Unconstrained        <none>               -            'clear'
+Clock                <n/a>                -            'clk'
+Unconstrained        <none>               -            'enable'
+Unconstrained        <none>               -            'imemData'
+Unconstrained        <none>               -            'insF'
+Unconstrained        <none>               -            'rst'
+Unconstrained        <none>               -            'writeData'
+-------------------------------------------------------------------------------
+
+
+
+Using user-specified initialization sequence:
+
+---------------- BEGIN RESET SEQUENCE --------------
+$default_clock clk
+$default_input_value 0
+rst = 1'b0
+##
+rst = 1'b1
+
+---------------- END RESET SEQUENCE ----------------
+
+
+-------------------------------------------------------------------------------
+Assumptions (1)
+-------------------------------------------------------------------------------
+ovl_check
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Active Targets (50)
+-------------------------------------------------------------------------------
+Memory_latency_checking[0].letency_execution
+Memory_latency_checking[1].letency_execution
+Memory_latency_checking[2].letency_execution
+Memory_latency_checking[3].letency_execution
+Memory_latency_checking[4].letency_execution
+Memory_latency_checking[5].letency_execution
+arithemic_add_verify
+arithemic_and_verify
+arithemic_or_verify
+arithemic_sub_verify
+execution_latency_checking[0].letency_execution
+execution_latency_checking[1].letency_execution
+execution_latency_checking[2].letency_execution
+execution_latency_checking[3].letency_execution
+execution_latency_checking[4].letency_execution
+execution_latency_checking[5].letency_execution
+ins_latency_checking[0].ins_latency_test
+ins_latency_checking[1].ins_latency_test
+ins_latency_checking[2].ins_latency_test
+ins_stability
+latency_checking[0].valid_latency0
+latency_checking[10].valid_latency0
+latency_checking[11].valid_latency0
+latency_checking[12].valid_latency0
+latency_checking[13].valid_latency0
+latency_checking[14].valid_latency0
+latency_checking[15].valid_latency0
+latency_checking[16].valid_latency0
+latency_checking[17].valid_latency0
+latency_checking[18].valid_latency0
+latency_checking[19].valid_latency0
+latency_checking[1].valid_latency0
+latency_checking[20].valid_latency0
+latency_checking[2].valid_latency0
+latency_checking[3].valid_latency0
+latency_checking[4].valid_latency0
+latency_checking[5].valid_latency0
+latency_checking[6].valid_latency0
+latency_checking[7].valid_latency0
+latency_checking[8].valid_latency0
+latency_checking[9].valid_latency0
+liveness_checking_ALU
+liveness_checking_ALU_Memory
+liveness_checking_ALU_dis
+liveness_checking_ALU_execution
+liveness_checking_datapath
+no_overflow
+overflow_checking
+overflow_verify
+ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+X Registers in Starting State
+-------------------------------------------------------------------------------
+  3 registers (100.0% of 3 in sequential fanin of properties)
+-------------------------------------------------------------------------------
+  Execution.ALUResultE (File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 326) 
+    32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  IF.InstrD (File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 303) 8'bxxxxxxxx
+  Memory.ALUResultM (File /user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv, Line 235) 
+    32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Z Registers in Starting State
+-------------------------------------------------------------------------------
+  0 registers (0.0% of 3 in sequential fanin of properties)
+-------------------------------------------------------------------------------
+
+
+---------------------------------------
+Formal Netlist Statistics         Count
+---------------------------------------
+Control Point Bits                  203
+  DUT Input Bits                    138
+  Cut Point Bits                      0
+  Black Box Output Bits               0
+  Undriven Wire Bits                  1
+  Modeling Bits                      64
+State Bits                          319
+  Counter State Bits                  0
+  RAM State Bits                      0
+  Register State Bits                72
+  Property State Bits               247
+Logic Gates                        2096
+  Design Gates                     1251
+  Property Gates                    845
+---------------------------------------
+
+
+-------------------------------------------------------------------------------
+Targets Proven (10)
+-------------------------------------------------------------------------------
+Memory_latency_checking[1].letency_execution
+arithemic_add_verify
+arithemic_sub_verify
+execution_latency_checking[1].letency_execution
+ins_latency_checking[1].ins_latency_test
+ins_stability
+liveness_checking_ALU
+liveness_checking_ALU_dis
+liveness_checking_datapath
+overflow_checking
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Targets Vacuously Proven (2)
+-------------------------------------------------------------------------------
+arithemic_and_verify
+arithemic_or_verify
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Targets Fired (1)
+-------------------------------------------------------------------------------
+ins_latency_checking[2].ins_latency_test
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Targets Fired with Warnings (16)
+-------------------------------------------------------------------------------
+Memory_latency_checking[0].letency_execution
+Memory_latency_checking[2].letency_execution
+Memory_latency_checking[3].letency_execution
+Memory_latency_checking[4].letency_execution
+Memory_latency_checking[5].letency_execution
+execution_latency_checking[0].letency_execution
+execution_latency_checking[2].letency_execution
+execution_latency_checking[3].letency_execution
+execution_latency_checking[4].letency_execution
+execution_latency_checking[5].letency_execution
+ins_latency_checking[0].ins_latency_test
+liveness_checking_ALU_Memory
+liveness_checking_ALU_execution
+no_overflow
+overflow_verify
+ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Targets Covered (21)
+-------------------------------------------------------------------------------
+latency_checking[0].valid_latency0
+latency_checking[10].valid_latency0
+latency_checking[11].valid_latency0
+latency_checking[12].valid_latency0
+latency_checking[13].valid_latency0
+latency_checking[14].valid_latency0
+latency_checking[15].valid_latency0
+latency_checking[16].valid_latency0
+latency_checking[17].valid_latency0
+latency_checking[18].valid_latency0
+latency_checking[19].valid_latency0
+latency_checking[1].valid_latency0
+latency_checking[20].valid_latency0
+latency_checking[2].valid_latency0
+latency_checking[3].valid_latency0
+latency_checking[4].valid_latency0
+latency_checking[5].valid_latency0
+latency_checking[6].valid_latency0
+latency_checking[7].valid_latency0
+latency_checking[8].valid_latency0
+latency_checking[9].valid_latency0
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Assumptions Used in Proofs
+-------------------------------------------------------------------------------
+<no assumptions used in proofs>
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Assumptions Used in Bounded Proofs
+-------------------------------------------------------------------------------
+<no assumptions used in bounded proofs>
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Assumptions Used in Unsatisfiable Sanity Checks
+-------------------------------------------------------------------------------
+<no assumptions used in unsatisfiable sanity checks>
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Assumptions Used in Bounded Unsatisfiable Sanity Checks
+-------------------------------------------------------------------------------
+<no assumptions used in bounded unsatisfiable sanity checkss>
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Target Waveforms (38)
+-------------------------------------------------------------------------------
+  TB Time(ns) Dist  Target
+-------------------------------------------------------------------------------
+           20    1  Memory_latency_checking[0].letency_execution
+           40    3  Memory_latency_checking[2].letency_execution
+           50    4  Memory_latency_checking[3].letency_execution
+           60    5  Memory_latency_checking[4].letency_execution
+           70    6  Memory_latency_checking[5].letency_execution
+           20    1  execution_latency_checking[0].letency_execution
+           40    3  execution_latency_checking[2].letency_execution
+           50    4  execution_latency_checking[3].letency_execution
+           60    5  execution_latency_checking[4].letency_execution
+           70    6  execution_latency_checking[5].letency_execution
+           20    1  ins_latency_checking[0].ins_latency_test
+           40    3  ins_latency_checking[2].ins_latency_test
+           20    1  latency_checking[0].valid_latency0
+          120   11  latency_checking[10].valid_latency0
+          130   12  latency_checking[11].valid_latency0
+          140   13  latency_checking[12].valid_latency0
+          150   14  latency_checking[13].valid_latency0
+          160   15  latency_checking[14].valid_latency0
+          170   16  latency_checking[15].valid_latency0
+          180   17  latency_checking[16].valid_latency0
+          190   18  latency_checking[17].valid_latency0
+          200   19  latency_checking[18].valid_latency0
+          210   20  latency_checking[19].valid_latency0
+           30    2  latency_checking[1].valid_latency0
+          220   21  latency_checking[20].valid_latency0
+           40    3  latency_checking[2].valid_latency0
+           50    4  latency_checking[3].valid_latency0
+           60    5  latency_checking[4].valid_latency0
+           70    6  latency_checking[5].valid_latency0
+           80    7  latency_checking[6].valid_latency0
+           90    8  latency_checking[7].valid_latency0
+          100    9  latency_checking[8].valid_latency0
+          110   10  latency_checking[9].valid_latency0
+           30    2  liveness_checking_ALU_Memory
+           40    3  liveness_checking_ALU_execution
+           20    1  no_overflow
+           20    1  overflow_verify
+           20    1  ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P
+-------------------------------------------------------------------------------
+
+
+---------------------------------------
+Target Waveforms Summary by Distance
+---------------------------------------
+Distance                          Count
+---------------------------------------
+  1 cycle                             7
+  2 cycles                            2
+  3 cycles                            5
+  4 cycles                            3
+  5 cycles                            3
+  6 cycles                            3
+  7 cycles                            1
+  8 cycles                            1
+  9 cycles                            1
+ 10 cycles                            1
+ 11 cycles                            1
+ 12 cycles                            1
+ 13 cycles                            1
+ 14 cycles                            1
+ 15 cycles                            1
+ 16 cycles                            1
+ 17 cycles                            1
+ 18 cycles                            1
+ 19 cycles                            1
+ 20 cycles                            1
+ 21 cycles                            1
+---------------------------------------
+Total                                38
+---------------------------------------
+
+
+-------------------------------------------------------------------------------
+Proof Radius Summary by Target
+-------------------------------------------------------------------------------
+<all targets either proven or fired>
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+Engine Performance
+---------------------- Proofs -------------------------- Waveforms ------------
+   Engine |  Safety Liveness Vacuity  Sanity |  Safety Liveness Vacuity  Sanity
+-------------------------------------------------------------------------------
+        0 |       4        0       0       0 |       0        0       0       0
+        7 |       7        0       2       0 |      25        0      14       0
+       10 |       2        0       0       0 |      12        0      12       0
+       14 |       0        3       0       0 |       0        1       0       0
+-------------------------------------------------------------------------------
+
+
+---------------------------------------
+Property Summary                  Count
+---------------------------------------
+Assumed                               1
+Proven                               12
+  Vacuous                             2
+Covered                              21
+Inconclusive                          0
+Fired                                17
+  Fired with Warning                 16
+Uncoverable                           0
+---------------------------------------
+Total                                51
+---------------------------------------
+
+
+--------- Process Statistics ----------
+Elapsed Time                       1 s 
+-------- Orchestration Process --------
+------------ cadpc05:14580 ------------
+CPU Time                           0 s 
+Peak Memory                      0.4 GB
+---------- Engine Processes -----------
+------------ cadpc05:14589 ------------
+CPU Time                           0 s 
+Peak Memory                      0.1 GB
+CPU Utilization                    0 % 
+------------ cadpc05:14592 ------------
+CPU Time                           2 s 
+Peak Memory                      0.3 GB
+CPU Utilization                  100 % 
+------------ cadpc05:14596 ------------
+CPU Time                           0 s 
+Peak Memory                      0.1 GB
+CPU Utilization                    0 % 
+------------ cadpc05:14599 ------------
+CPU Time                           0 s 
+Peak Memory                      0.1 GB
+CPU Utilization                    0 % 
+---------------------------------------
+

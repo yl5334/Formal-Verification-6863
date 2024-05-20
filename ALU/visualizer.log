@@ -1,0 +1,58 @@
+VISUALIZERROOT = '/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/linux_x86_64/Visualizer'
+USER = 'yl5334'
+Loading tcl script /tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/linux_x86_64/Visualizer/lib/visualizer/tclscripts/designutil.tcl
+Done loading tcl script </tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/linux_x86_64/Visualizer/lib/visualizer/tclscripts/designutil.tcl>
+Server Initialized ...
+Mentor Graphics software version 2019.2_1 (Build on May 13 2019)
+Copyright (C) 1999-2023 by Mentor Graphics All rights reserved.
+   from_mega_agent
+   +outputDir+/tmp/visscratch.n2oR5c
+   +tcl
+   -I/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/../tb/incl
+   +designfile+/homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/VISUALIZER/design.bin
+   +show_pi_drvr_rcvr
+   +max_drv_rec_cnt=10000
+   +no_splash
+   +visformal
+   +external_client
+   +designfile+design.bin
+   +designfile+Output_Results/qcache/VISUALIZER/design.bin
+   +convertvhdlgenbracket
+
+Command line option(s) :
+   +outputDir+/tmp/visscratch.n2oR5c
+   +tcl
+   -I/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/../tb/incl
+   +designfile+/homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/VISUALIZER/design.bin
+   +show_pi_drvr_rcvr
+   +max_drv_rec_cnt=10000
+   +no_splash
+   +visformal
+   +external_client
+   +designfile+design.bin
+   +designfile+Output_Results/qcache/VISUALIZER/design.bin
+   +convertvhdlgenbracket
+
+New PLI Id assignment (at parsing time) will be used.
+
+Resolving hierarchical names.......
+
+
+Done resolving hierarchical names.......
+
+Creating var connectivity .......
+Done Creating var connectivity .......
+Design Statistics
+              Always = 8
+        Cont-Assigns = 22
+          SVA-Assert = 29
+           SVA-Cover = 21
+End of Design Statistics
+design loaded ...
+Reading file /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/datapath.sv
+Reading file /tools/mentor/questa_2019.2_1/share/assertion_lib/ovl_2.8.1/std_ovl/sva05/ovl_zero_one_hot_logic.sv
+Window layout Default has been saved in file /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/.visualizer/layout.xml
+Start  : Sat Dec 23 22:39:20 2023
+End    : Sun Dec 24 00:01:39 2023
+VMSize : 2776024 kB
+VMPeak : 2776128 kB

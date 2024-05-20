@@ -1,0 +1,18 @@
+<LayoutInfo CurrentRTLLayout="Default" version="1">
+ <Layout Name="Default" Type="RTL">
+  <dockareas bottom="737" left="250" right="530" top="0"/>
+  <window undocked="0" visible="1" x="0" type="rtl" width="3440" y="65" height="1337"/>
+  <window undocked="0" visible="1" x="0" dock_location="bottom" type="transcript" y="0"/>
+  <window undocked="1" visible="1" x="262" type="wave" width="2064" y="501" title="Wave (ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P)" height="864"/>
+  <window id="1" undocked="1" visible="1" x="190" type="wave" width="2064" y="254" title="Wave (arithemic_sub_verify)" height="864"/>
+  <window id="2" undocked="1" visible="1" x="147" type="wave" width="2064" y="150" title="Wave (execution_latency_checking[1].letency_execution)" height="864"/>
+  <window id="3" undocked="1" visible="0" x="160" type="wave" width="2064" y="80" title="Wave (execution_latency_checking[2].letency_execution)" height="864"/>
+  <window undocked="0" visible="1" x="0" type="source" y="0"/>
+  <window undocked="0" visible="0" x="0" dock_location="left" type="structure" y="0"/>
+  <window undocked="0" visible="0" x="0" dock_location="right" type="zinschematicview" y="0" title="Schematic"/>
+  <window undocked="0" visible="1" x="0" dock_location="left" type="zindutview" y="0" title="Design"/>
+  <window undocked="0" visible="1" x="0" dock_location="bottom" type="zinformalproperties" y="0" title="Properties"/>
+  <window undocked="0" visible="1" x="0" dock_location="right" type="zinformalcontrolpointsnew" y="0" title="Control Points"/>
+  <window undocked="0" visible="1" x="0" dock_location="bottom" type="zinformalpolicychecks" y="0" title="Design Checks"/>
+ </Layout>
+</LayoutInfo>

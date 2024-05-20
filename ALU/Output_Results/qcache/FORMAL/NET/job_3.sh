@@ -1,0 +1,2 @@
+#! /bin/bash 
+/tools/mentor/questa_2019.2_1/linux_x86_64/bin/qverifypm --monitor --host cadpc05 --port 33329 --wd /homes/user/stud/fall23/yl5334/tutorials_6863/ALU --type slave --binary /tools/mentor/questa_2019.2_1/linux_x86_64/bin/qverifyfk --id 3 -od Output_Results -tool prove -init qs_files/wb_arbiter.init -timeout 5m -import_db Output_Results/formal_compile.db -slave_mode -mpiport cadpc05:37530 -slave_id 3 

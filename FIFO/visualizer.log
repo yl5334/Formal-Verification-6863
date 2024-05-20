@@ -1,0 +1,52 @@
+VISUALIZERROOT = '/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/linux_x86_64/Visualizer'
+USER = 'yl5334'
+Loading tcl script /tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/linux_x86_64/Visualizer/lib/visualizer/tclscripts/designutil.tcl
+Done loading tcl script </tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/linux_x86_64/Visualizer/lib/visualizer/tclscripts/designutil.tcl>
+Server Initialized ...
+Mentor Graphics software version 2019.2_1 (Build on May 13 2019)
+Copyright (C) 1999-2024 by Mentor Graphics All rights reserved.
+   from_mega_agent
+   +outputDir+/tmp/visscratch.jdKjP8
+   +tcl
+   -I/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/../tb/incl
+   +designfile+/homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/Output_Results/qcache/VISUALIZER/design.bin
+   +show_pi_drvr_rcvr
+   +max_drv_rec_cnt=10000
+   +no_splash
+   +visformal
+   +external_client
+   +designfile+design.bin
+   +designfile+Output_Results/qcache/VISUALIZER/design.bin
+   +convertvhdlgenbracket
+
+Command line option(s) :
+   +outputDir+/tmp/visscratch.jdKjP8
+   +tcl
+   -I/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/../tb/incl
+   +designfile+/homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/Output_Results/qcache/VISUALIZER/design.bin
+   +show_pi_drvr_rcvr
+   +max_drv_rec_cnt=10000
+   +no_splash
+   +visformal
+   +external_client
+   +designfile+design.bin
+   +designfile+Output_Results/qcache/VISUALIZER/design.bin
+   +convertvhdlgenbracket
+
+New PLI Id assignment (at parsing time) will be used.
+Creating var connectivity .......
+Done Creating var connectivity .......
+Design Statistics
+              Always = 10
+        Cont-Assigns = 3
+          SVA-Assert = 10
+End of Design Statistics
+design loaded ...
+Reading file /homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv
+Licenses released at Sun Feb 18 16:34:06 2024 due to inactivity in session.  They will be reacquired when you resume activity.
+Licenses reacquired  Tue Feb 20 19:18:44 2024
+Window layout Default has been saved in file /homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/.visualizer/layout.xml
+Start  : Sun Feb 18 15:27:36 2024
+End    : Tue Feb 20 19:19:01 2024
+VMSize : 2844372 kB
+VMPeak : 2858500 kB

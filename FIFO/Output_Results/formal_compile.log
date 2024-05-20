@@ -1,0 +1,158 @@
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+
+log created Sun Feb 18 15:27:19 2024 by yl5334 on cadpc28
+
+
+Command: netlist elaborate
+Command arguments:
+    -zdb
+      /homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/Output_Results/qcache/DB/zdb_1
+    -tool propcheck
+    -d fifo_equ
+    -cuname fifo_equ
+
+
+## Elaborating Design...
+Reading MTI mapping for library mapping
+Writing all MTI mappings to vmap output ...
+
+Top level modules:
+	fifo_equ
+
+Analyzing design...
+-- Loading module z0in_work.fifo_equ
+-- Loading module z0in_work.fifo
+-- Loading module z0in_work.FIFO_gold
+Optimizing 3 design-units (inlining 0/4 module instances):
+-- Optimizing module z0in_work.fifo(fast)
+-- Optimizing module z0in_work.FIFO_gold(fast)
+-- Optimizing module z0in_work.fifo_equ(fast)
+Optimized design name is zi_opt_csl_1174779352_1
+Identified prefix 'fifo_equ'.
+End of log Sun Feb 18 15:27:22 2024
+
+
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+
+log created Sun Feb 18 15:27:23 2024 by yl5334 on cadpc28
+
+
+Command: netlist create
+Command arguments:
+    -zdb
+      /homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/Output_Results/qcache/DB/zdb_1
+    -tool propcheck
+    -d fifo_equ
+    -cuname fifo_equ
+
+
+## Synthesizing netlist...
+Processing module 'fifo'
+Elaborating module 'fifo'.
+Processing module 'FIFO_gold'
+Elaborating module 'FIFO_gold'.
+Error   : Incorrect coding style for asynchronous reset inference.  'If' condition does not check for a posedge/negedge in sensitivity list, Module 'FIFO_gold', File '/user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv', Line 173.  [elaboration-502]
+        : Will treat module as a black box.
+Info    : Considering module as a black box.  Module 'FIFO_gold'.  [elaboration-4]
+Processing module 'fifo_equ'
+Elaborating module 'fifo_equ'.
+Warning : Module being treated as a black box.  Module 'FIFO_gold'.  [netlist-30]
+        : Module will not be elaborated.
+
+##Time Taken (Synthesis) = 1560000.000000 ticks = 1.560000 secs
+
+Summary: 1 Errors, 1 Warnings in processing "netlist create"
+End of log Sun Feb 18 15:27:25 2024
+
+
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+
+log created Sun Feb 18 15:27:26 2024 by yl5334 on cadpc28
+
+
+Command: formal compile
+Command arguments:
+    -zdb
+      /homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/Output_Results/qcache/DB/zdb_1
+    -d fifo_equ
+    -cuname fifo_equ
+
+
+## Processing Formal Logic...
+Processing module 'fifo'
+Restoring module 'fifo'.
+Processing module 'FIFO_gold'
+Restoring module 'FIFO_gold'.
+Info    : Considering module as a black box.  Module 'FIFO_gold'.  [elaboration-4]
+Processing module 'fifo_equ'
+Restoring module 'fifo_equ'.
+Flattening design 'fifo'.
+Flattening design 'FIFO_gold'.
+Flattening design 'fifo_equ'.
+Info    : Detected reset.  Reset: rst, polarity: synchronous, active: high.  [netlist-12]
+Info    : Detected clock.  Clock: clk, polarity: posedge.  [netlist-11]
+Design is processed for formal verification.  Design 'fifo_equ'.
+
+Clocks
+------------------------------------------------------------------------------
+Port                                   Period         Waveform    Edges
+------------------------------------------------------------------------------
+clk                                        10              0 5    PE   
+------------------------------------------------------------------------------
+
+Blackboxes
+------------------------------------------------------------------------------
+Module name                                                Reason
+------------------------------------------------------------------------------
+FIFO_gold                                                  [inferred blackbox]
+------------------------------------------------------------------------------
+
+Inferred directives
+------------------------------------------------------------------------------
+netlist blackbox FIFO_gold
+------------------------------------------------------------------------------
+
+Design is linked for formal analysis.  Design 'fifo_equ'.
+Formal model has been created.
+
+Property Summary
+-------------------------------------------------------------------------------
+Total  Directives :10
+Assert Directives :10
+Assume Directives :0
+Cover  Directives :0
+
+SVA Summary
+-------------------------------------------------------------------------------
+SVA Directive Type        Directives           Checkers
+-------------------------------------------------------------------------------
+Assert                        10                  10
+Assume                         0                   0
+Cover                          0                   0
+-------------------------------------------------------------------------------
+
+To see results in the GUI run:
+qverify /homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/Output_Results/formal_compile.db
+
+
+Message Summary
+---------------------------------------------------------------------------
+Count  Type     Message ID         Summary
+---------------------------------------------------------------------------
+    1  Error    elaboration-502    Incorrect coding style for asynchronous reset inference.
+    1  Warning  netlist-30         Module being treated as a black box.
+    2  Info     elaboration-4      Considering module as a black box.
+    1  Info     netlist-11         Detected clock.
+    1  Info     netlist-12         Detected reset.
+
+Summary: 1 Errors, 1 Warnings in formal compile
+Final Process Statistics: Max memory 631MB, CPU time 4s, Total time 9s
+End of log Sun Feb 18 15:27:28 2024
+
+

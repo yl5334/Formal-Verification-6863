@@ -1,0 +1,105 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session version="0.2">
+ <app argc="8">
+  <argv pos="0" value="/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/hdlstudio"/>
+  <argv pos="1" value="-I/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/../tb/incl"/>
+  <argv pos="2" value="+designfile+/homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/VISUALIZER/design.bin"/>
+  <argv pos="3" value="+show_pi_drvr_rcvr"/>
+  <argv pos="4" value="+max_drv_rec_cnt=10000"/>
+  <argv pos="5" value="+no_splash"/>
+  <argv pos="6" value="+visformal"/>
+  <argv pos="7" value="+external_client"/>
+ </app>
+ <window_config>
+  <dockareas bottom="737" left="250" right="530" top="0"/>
+  <window undocked="0" visible="1" x="0" type="rtl" width="3440" y="65" height="1337"/>
+  <window undocked="0" visible="1" x="0" dock_location="bottom" type="transcript" y="0"/>
+  <window undocked="1" visible="1" x="262" type="wave" width="2064" y="501" title="Wave (ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P)" height="864"/>
+  <window id="1" undocked="1" visible="1" x="190" type="wave" width="2064" y="254" title="Wave (arithemic_sub_verify)" height="864"/>
+  <window id="2" undocked="1" visible="1" x="147" type="wave" width="2064" y="150" title="Wave (execution_latency_checking[1].letency_execution)" height="864"/>
+  <window id="3" undocked="1" visible="0" x="160" type="wave" width="2064" y="80" title="Wave (execution_latency_checking[2].letency_execution)" height="864"/>
+  <window undocked="0" visible="1" x="0" type="source" y="0"/>
+  <window undocked="0" visible="0" x="0" dock_location="left" type="structure" y="0"/>
+  <window undocked="0" visible="0" x="0" dock_location="right" type="zinschematicview" y="0" title="Schematic"/>
+  <window undocked="0" visible="1" x="0" dock_location="left" type="zindutview" y="0" title="Design"/>
+  <window undocked="0" visible="1" x="0" dock_location="bottom" type="zinformalproperties" y="0" title="Properties"/>
+  <window undocked="0" visible="1" x="0" dock_location="right" type="zinformalcontrolpointsnew" y="0" title="Control Points"/>
+  <window undocked="0" visible="1" x="0" dock_location="bottom" type="zinformalpolicychecks" y="0" title="Design Checks"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile waveType="0" fileName="/tmp/propcheck.14659_655/ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P__0.db" tagName="ZIN1"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser primary="true" value_tooltip_mode="true" value_annotation_mode="true" instancename="datapath"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 111"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curActiveWaveFile="ZIN1" curDisplayTimeUnitStr="1ns" curDisplayTimeUnit="-9" customDisplayTimeUnitListStr="" curRadix="8">
+   <curTime hightime="0" lowtime="20"/>
+  </watchTower_cur_setting>
+  <drv_rec_data active="true" drivers="true"/>
+ </gui>
+ <wave_mgr sync_time_range="0">
+  <waveWindow wintype="4" signalHeight="27" valueWidth="82" displayLeadingZeros="0" nameWidth="150" showMarkers="1" displayTimeUnit="-9" displayScopeName="1" alignBaseName="0" snapToEdge="1" primNudge="1" displayGrid="0" secNudge="1" trackViewToTime="0" showSecCursor="0" displayTimeUnitStr="1ns" displayGlobalView="1" waveWidth="1783" swapRepresentationOfX="0" displayRadixWithValue="0" displayFileTag="0" value_tooltip="0">
+   <window name="Wave (ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P)">
+    <timeunit value="11"/>
+    <frequnit value="2"/>
+    <showdiff value="0"/>
+   </window>
+   <viewPort>
+    <beginTime hightime="0" lowtime="0"/>
+    <endTime hightime="0" lowtime="40"/>
+    <beginViewTime hightime="0" lowtime="5"/>
+    <endViewTime hightime="0" lowtime="25"/>
+    <beginLastViewTime hightime="0" lowtime="5"/>
+    <endLastViewTime hightime="0" lowtime="25"/>
+   </viewPort>
+   <primCursor hightime="0" lowtime="20"/>
+   <wavetclcommands>
+    <tcl command="onerror resume"/>
+    <tcl command="wave update off"/>
+    <tcl command="wave clearselection"/>
+    <tcl command="wave update off"/>
+    <tcl command="wave add datapath.qft_cycle_index -tag ZIN1 -label {cycle} -radix decimal -representation twoscomplement -foregroundcolor Gold"/>
+    <tcl command="wave group {Primary Clocks} -backgroundcolor #004466"/>
+    <tcl command="wave add -group {Primary Clocks} datapath.clk -tag ZIN1 -radix binary"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave group {Primary Resets} -backgroundcolor #006666"/>
+    <tcl command="wave add -group {Primary Resets} datapath.rst -tag ZIN1 -radix binary"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave group {Property Signals} -backgroundcolor #216600"/>
+    <tcl command="wave add -group {Property Signals} datapath.ovl_zero_one_hot_check.clk -tag ZIN1 -radix binary"/>
+    <tcl command="wave add -group {Property Signals} datapath.ovl_zero_one_hot_check.reset_n -tag ZIN1 -radix binary"/>
+    <tcl command="wave add -group {Property Signals} datapath.ovl_zero_one_hot_check.test_expr -tag ZIN1 -radix hexadecimal"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave group {Control Point Signals} -backgroundcolor #666600"/>
+    <tcl command="wave add -group {Control Point Signals} datapath.IF.InstrD -tag ZIN1 -radix hexadecimal"/>
+    <tcl command="wave add -group {Control Point Signals} datapath.ins -tag ZIN1 -radix binary -select"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave group {Primary Resets} -collapse"/>
+    <tcl command="wave update on"/>
+    <tcl command="wave top 0"/>
+    <tcl command="wave name &quot;Wave (ovl_zero_one_hot_check.ovl_assert.A_ASSERT_ZERO_ONE_HOT_P)&quot;"/>
+    <tcl command="wave marker add Start 10 LimeGreen"/>
+    <tcl command="wave marker add Fire 20 Orange"/>
+    <tcl command="wave zoom range 5 25"/>
+    <tcl command=""/>
+   </wavetclcommands>
+   <markerList numMarkers="2">
+    <marker name="Start" RGBcolor="#32cd32">
+     <time hightime="0" lowtime="10"/>
+    </marker>
+    <marker name="Fire" RGBcolor="#ffa500">
+     <time hightime="0" lowtime="20"/>
+    </marker>
+   </markerList>
+  </waveWindow>
+ </wave_mgr>
+ <windows/>
+ <dut/>
+</session>

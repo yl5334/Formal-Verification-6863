@@ -1,0 +1,124 @@
+
+Questa Version 2019.2_1 linux_x86_64 18 May 2019
+
+-------------------------------------------------------------------------------
+Design Report
+Created Sun Feb 18 15:27:28 2024
+-------------------------------------------------------------------------------
+
+
+Design 'fifo_equ'
+===============================================================================
+
+
+---------------------------------------
+Design Summary                    Count
+---------------------------------------
+Clocks                                1
+  User-specified                      1
+  Inferred                            0
+Resets                                1
+  User-specified                      0
+  Inferred                            1
+Control Point Bits                   22
+  DUT Input Bits                     12
+  Cut Point Bits                      0
+  Black Box Output Bits              10
+  Undriven Wire Bits                  0
+  Unresolved RHS Bits                 0
+State Bits                           98
+  Design Register Bits               98
+  Design Latch Bits                   0
+Storage Structures       
+  Counters                            6
+  RAMs                                0
+Black Boxes                           1
+  User-specified                      0
+  Inferred                            1
+Constants Bits                        0
+---------------------------------------
+
+Detailed Design Information
+===============================================================================
+
+
+Clocks
+------------------------------------------------------------------------------
+Port                                   Period         Waveform    Edges
+------------------------------------------------------------------------------
+clk                                        10              0 5    PE   
+------------------------------------------------------------------------------
+
+Resets
+-------
+  rst [inferred] (Active High)
+
+Constants
+------------------
+  <none>
+
+Cut Points
+----------
+  <none>
+
+Black Box Outputs
+-----------------
+  gold.empty  (1 bit)
+  gold.full  (1 bit)
+  gold.readData  (8 bits)
+
+Undriven Wires
+--------------
+  <none>
+
+Unresolved RHS Bits
+-------------------
+  <none>
+
+Latches
+-------
+  <none>
+
+Counters
+--------
+  fifo.number_of_current_entries  (3 bits)
+  fifo.read_ptr  (2 bits)
+  fifo.write_ptr  (2 bits)
+  fifo_o.number_of_current_entries  (3 bits)
+  fifo_o.read_ptr  (2 bits)
+  fifo_o.write_ptr  (2 bits)
+
+RAMs
+----
+  <none>
+
+Black Boxes (User-specified)
+----------------------------
+  <none>
+
+Black Boxes (Inferred)
+----------------------
+  gold (FIFO_gold)
+
+
+
+Port Constraints
+-------------------------------------------------------------------------------
+Type                 Clock Domain         Value         Port
+-------------------------------------------------------------------------------
+Clock                <n/a>                -            'clk'
+Unconstrained        <none>               -            'readEn'
+Unconstrained        <none>               -            'rst'
+Unconstrained        <none>               -            'writeData'
+Unconstrained        <none>               -            'writeEn'
+-------------------------------------------------------------------------------
+
+Instance Usage
+===============================================================================
+Count  Module          Location
+-------------------------------------------------------------------------------
+   1   FIFO_gold       /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv (Line 143)
+   2   fifo            /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv (Line 50)
+
+
+

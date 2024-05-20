@@ -1,0 +1,2 @@
+#! /bin/bash 
+/tools/mentor/questa_2019.2_1/linux_x86_64/bin/qverifypm --monitor --host cadpc05 --port 33329 --wd /homes/user/stud/fall23/yl5334/tutorials_6863/ALU --type master --binary /tools/mentor/questa_2019.2_1/linux_x86_64/bin/qverifyfk --id 0 -gui -tool prove -import_db Output_Results/formal_compile.db -od Output_Results -client_host cadpc05 -client_port 46608 -netcache /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/FORMAL/NET -pm_host cadpc05 -pm_port 33329   

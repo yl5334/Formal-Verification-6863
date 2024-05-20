@@ -1,0 +1,206 @@
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+
+log created Sat Dec 23 22:39:08 2023 by yl5334 on cadpc05
+
+
+Command: netlist elaborate
+Command arguments:
+    -zdb
+      /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/DB/zdb_1
+    -tool propcheck
+    -d datapath
+    -cuname datapath
+
+
+## Elaborating Design...
+Reading MTI mapping for library mapping
+Writing all MTI mappings to vmap output ...
+
+Top level modules:
+	datapath
+
+Analyzing design...
+-- Loading module z0in_work.datapath
+-- Loading module z0in_work.IF_ID
+-- Loading module z0in_work.mux3
+-- Loading module z0in_work.aludec
+-- Loading module z0in_work.alu
+-- Loading module z0in_work.alu_reference
+-- Loading module z0in_work.IEx
+-- Loading module z0in_work.IEx_IMem
+-- Loading module z0in_work.ovl_zero_one_hot
+Warning : Vopt warning.  ./datapath.sv(66): (vopt-2241) Connection width does not match width of port 'InstrF'. The port definition is at: ./datapath.sv(302).  [parser-285]
+        : Elaboration will continue.
+Optimizing 9 design-units (inlining 0/9 module instances):
+-- Optimizing module z0in_work.IF_ID(fast)
+-- Optimizing module z0in_work.mux3(fast)
+-- Optimizing module z0in_work.aludec(fast)
+-- Optimizing module z0in_work.alu(fast)
+-- Optimizing module z0in_work.alu_reference(fast)
+-- Optimizing module z0in_work.IEx(fast)
+-- Optimizing module z0in_work.IEx_IMem(fast)
+-- Optimizing module z0in_work.ovl_zero_one_hot(fast)
+-- Optimizing module z0in_work.datapath(fast)
+Optimized design name is zi_opt_csl_353971377_1
+Identified prefix 'datapath'.
+Summary: 1 Warnings in processing "netlist elaborate"
+End of log Sat Dec 23 22:39:10 2023
+
+
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+
+log created Sat Dec 23 22:39:10 2023 by yl5334 on cadpc05
+
+
+Command: netlist create
+Command arguments:
+    -zdb
+      /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/DB/zdb_1
+    -tool propcheck
+    -d datapath
+    -cuname datapath
+
+
+## Synthesizing netlist...
+Processing module 'IF_ID'
+Elaborating module 'IF_ID'.
+Processing module 'mux3'
+Elaborating module 'mux3'.
+Processing module 'aludec'
+Elaborating module 'aludec'.
+Processing module 'alu'
+Elaborating module 'alu'.
+Processing module 'alu_reference'
+Elaborating module 'alu_reference'.
+Processing module 'IEx'
+Elaborating module 'IEx'.
+Processing module 'IEx_IMem'
+Elaborating module 'IEx_IMem'.
+Processing module 'ovl_zero_one_hot'
+Elaborating module 'ovl_zero_one_hot'.
+Processing module 'datapath'
+Elaborating module 'datapath'.
+
+##Time Taken (Synthesis) = 2030000.000000 ticks = 2.030000 secs
+
+Summary: 1 Warnings in processing "netlist create"
+End of log Sat Dec 23 22:39:13 2023
+
+
+# 
+# Questa Static Verification System
+# Version 2019.2_1 linux_x86_64 18 May 2019
+
+log created Sat Dec 23 22:39:13 2023 by yl5334 on cadpc05
+
+
+Command: formal compile
+Command arguments:
+    -zdb
+      /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/qcache/DB/zdb_1
+    -d datapath
+    -cuname datapath
+
+
+## Processing Formal Logic...
+Processing module 'IF_ID'
+Restoring module 'IF_ID'.
+Processing module 'mux3'
+Restoring module 'mux3'.
+Processing module 'aludec'
+Restoring module 'aludec'.
+Processing module 'alu'
+Restoring module 'alu'.
+Processing module 'alu_reference'
+Restoring module 'alu_reference'.
+Processing module 'IEx'
+Restoring module 'IEx'.
+Processing module 'IEx_IMem'
+Restoring module 'IEx_IMem'.
+Processing module 'ovl_zero_one_hot'
+Restoring module 'ovl_zero_one_hot'.
+Processing module 'datapath'
+Restoring module 'datapath'.
+Flattening design 'IF_ID'.
+Flattening design 'mux3'.
+Flattening design 'aludec'.
+Flattening design 'alu'.
+Flattening design 'alu_reference'.
+Flattening design 'IEx'.
+Flattening design 'IEx_IMem'.
+Flattening design 'ovl_zero_one_hot'.
+Flattening design 'datapath'.
+Info    : Detected reset.  Reset: rst, polarity: asynchronous, active: high.  [netlist-12]
+Info    : Detected clock.  Clock: clk, polarity: posedge.  [netlist-11]
+Info    : Detected clock.  Clock: clk, polarity: negedge.  [netlist-11]
+Design is processed for formal verification.  Design 'datapath'.
+
+Clocks
+------------------------------------------------------------------------------
+Port                                   Period         Waveform    Edges
+------------------------------------------------------------------------------
+clk                                        10              0 5    PE NE
+------------------------------------------------------------------------------
+
+Blackboxes
+------------------------------------------------------------------------------
+Module name                                                Reason
+------------------------------------------------------------------------------
+<no blackboxed modules>
+------------------------------------------------------------------------------
+
+Inferred directives
+------------------------------------------------------------------------------
+<no inferred directives>
+------------------------------------------------------------------------------
+
+Design is linked for formal analysis.  Design 'datapath'.
+Formal model has been created.
+
+Property Summary
+-------------------------------------------------------------------------------
+Total  Directives :51
+Assert Directives :29
+Assume Directives :1
+Cover  Directives :21
+
+SVA Summary
+-------------------------------------------------------------------------------
+SVA Directive Type        Directives           Checkers
+-------------------------------------------------------------------------------
+Assert                        29                  29
+Assume                         1                   1
+Cover                         21                  21
+-------------------------------------------------------------------------------
+
+Design Checks Summary
+-------------------------------------------------------------------------------
+Check                              Found
+-------------------------------------------------------------------------------
+LOGIC_UNDRIVEN                          1
+-------------------------------------------------------------------------------
+Total                                  1
+-------------------------------------------------------------------------------
+
+
+To see results in the GUI run:
+qverify /homes/user/stud/fall23/yl5334/tutorials_6863/ALU/Output_Results/formal_compile.db
+
+
+Message Summary
+---------------------------------------------------------------------------
+Count  Type     Message ID         Summary
+---------------------------------------------------------------------------
+    1  Warning  parser-285         Vopt warning.
+    2  Info     netlist-11         Detected clock.
+    1  Info     netlist-12         Detected reset.
+
+Summary: 1 Warnings in formal compile
+Final Process Statistics: Max memory 631MB, CPU time 4s, Total time 7s
+End of log Sat Dec 23 22:39:15 2023
+
+

@@ -1,0 +1,66 @@
+>1
+>2
+20
+0:4:fifo
+1:4:work
+2:68:/user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv
+3:7:ENTRIES
+4:5:32'h4
+5:12:ENTRIES_LOG2
+6:5:32'h2
+7:3:clk
+8:9:fifo_data
+9:4:head
+10:12:in_read_ctrl
+11:13:in_write_ctrl
+12:13:in_write_data
+13:25:number_of_current_entries
+14:12:out_is_empty
+15:11:out_is_full
+16:13:out_read_data
+17:8:read_ptr
+18:3:rst
+19:9:write_ptr
+<2
+>3
+7
+0:140:10 "scalar signed[31:0]" "<zin_internal>" 0 6 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar signed" "<zin_internal>" 0 2 1 0 0
+1:126:10 "scalar[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:36:7 "logic" "<zin_internal>" 0 0 1 0 0
+3:211:10 "logic[3:0][7:0]" "<zin_internal>" 0 4 1 7 "integer[3:0]" "<zin_internal>" 0 10 32 3 0 10 "logic[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+4:121:10 "logic[7:0]" "<zin_internal>" 0 4 1 7 "integer[7:0]" "<zin_internal>" 0 10 32 7 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+5:121:10 "logic[2:0]" "<zin_internal>" 0 4 1 7 "integer[2:0]" "<zin_internal>" 0 10 32 2 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+6:121:10 "logic[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+b1f2l1.90t0c2p3v4F0L7T0U0p5v6F0L10T1U0;
+<4
+>5
+b13@7l12knt2;
+@8l23knt3;
+@9l24knt4;
+@10l14knt2;
+@11l15knt2;
+@12l16knt4;
+@13l25knt5;
+@14l19knt2;
+@15l18knt2;
+@16l17knt4;
+@17l22knt6;
+@18l13knt2;
+@19l21knt6;
+<5
+>6
+b8@7x1t2;
+@18x12t2;
+@10x4t2;
+@11x5t2;
+@12x6t4;
+@16d1x10t4;
+@15d1x9t2;
+@14d1x8t2;
+<6
+>7
+c0
+<7
+<1

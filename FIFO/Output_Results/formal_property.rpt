@@ -1,0 +1,110 @@
+-------------------------------------------------------------------------------
+Property Report
+-------------------------------------------------------------------------------
+Questa Formal Version 2019.2_1 linux_x86_64 18 May 2019
+-------------------------------------------------------------------------------
+Report Generated               : Sun Feb 18 15:27:28 2024
+-------------------------------------------------------------------------------
+
+Property Summary
+-------------------------------------------------------------------------------
+Total    Directives :10
+Assert   Directives :10
+Assume   Directives :0
+Cover    Directives :0
+
+
+SVA Summary
+-------------------------------------------------------------------------------
+SVA Directive Type        Directives           Checkers
+-------------------------------------------------------------------------------
+Assert                        10                  10
+Assume                         0                   0
+Cover                          0                   0
+-------------------------------------------------------------------------------
+
+
+Compiled Properties:
+-------------------------------------------------------------------------------
+Assertions:
+    empty_test
+    full_test
+    read_ability
+    read_ability_test
+    read_empty
+    read_empty_test
+    read_full
+    read_full_test
+    write_empty_test
+    write_full_test
+
+
+===============================================================================
+Module: fifo_equ
+===============================================================================
+Summary
+-------------------------------------------------------------------------------
+Assertions   : 10 
+Assumptions  : 0 
+Covers       : 0 
+-------------------------------------------------------------------------------
+assert write_full_test (sva)
+  Instance: fifo_equ.write_full_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 31
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert write_empty_test (sva)
+  Instance: fifo_equ.write_empty_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 32
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert read_full_test (sva)
+  Instance: fifo_equ.read_full_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 33
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert read_empty_test (sva)
+  Instance: fifo_equ.read_empty_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 34
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert read_ability (sva)
+  Instance: fifo_equ.read_ability
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 35
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert full_test (sva)
+  Instance: fifo_equ.full_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 37
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert empty_test (sva)
+  Instance: fifo_equ.empty_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 38
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert read_full (sva)
+  Instance: fifo_equ.read_full
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 39
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert read_empty (sva)
+  Instance: fifo_equ.read_empty
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 40
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+
+assert read_ability_test (sva)
+  Instance: fifo_equ.read_ability_test
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/FIFO/fifo_equ.sv, Line 41
+  Severity: error
+  Stats:   depth=1 gates=5 flops=0
+

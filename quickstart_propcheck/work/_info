@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2019.2_1 2019.05, May 13 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck
+vfifo
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1701139941
+!i10b 1
+!s100 70n96mWecLj5N`ib_z@GI1
+!s11b PZVY>lTl8NVL0KiJn?8Ok1
+ID2V4zVMn^oaM0i7F2Pih_3
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1701138637
+8./fifo.sv
+F./fifo.sv
+L0 1
+OL;L;2019.2_1;69
+r1
+!s85 0
+31
+!s108 1701139941.000000
+!s107 ./fifo.sv|
+!s90 -sv|./fifo.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

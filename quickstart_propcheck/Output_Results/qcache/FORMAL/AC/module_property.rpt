@@ -1,0 +1,68 @@
+
+
+===============================================================================
+Module: fifo
+===============================================================================
+Parameters: 
+    parameter  ENTRIES = 4
+    parameter  ENTRIES_LOG2 = 32'b10
+Summary
+-------------------------------------------------------------------------------
+Assertions   : 2 
+Assumptions  : 0 
+Covers       : 7 
+-------------------------------------------------------------------------------
+assert fifo_out_is_full (sva)
+  Instance: fifo.fifo_out_is_full
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv, Line 37
+  Severity: error
+  Stats:   depth=1 gates=7 flops=0
+
+assert fifo_out_is_empty (sva)
+  Instance: fifo.fifo_out_is_empty
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv, Line 38
+  Severity: error
+  Stats:   depth=1 gates=7 flops=0
+
+cover fifo_cover_ent_0 (sva)
+  Instance: fifo.fifo_cover_ent_0
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv, Line 27
+  Severity: info
+  Stats:   depth=1 gates=3 flops=0
+
+cover fifo_cover_ent_1 (sva)
+  Instance: fifo.fifo_cover_ent_1
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv, Line 28
+  Severity: info
+  Stats:   depth=1 gates=3 flops=0
+
+cover fifo_cover_ent_2 (sva)
+  Instance: fifo.fifo_cover_ent_2
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv, Line 29
+  Severity: info
+  Stats:   depth=1 gates=3 flops=0
+
+cover fifo_cover_ent_3 (sva)
+  Instance: fifo.fifo_cover_ent_3
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv, Line 30
+  Severity: info
+  Stats:   depth=1 gates=3 flops=0
+
+cover fifo_cover_ent_4 (sva)
+  Instance: fifo.fifo_cover_ent_4
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv, Line 31
+  Severity: info
+  Stats:   depth=1 gates=3 flops=0
+
+cover fifo_cover_ent_5 (sva)
+  Instance: fifo.fifo_cover_ent_5
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv, Line 32
+  Severity: info
+  Stats:   depth=1 gates=3 flops=0
+
+cover fifo_cover_ent_6 (sva)
+  Instance: fifo.fifo_cover_ent_6
+  Location: File /user/stud/fall23/yl5334/tutorials_6863/quickstart_propcheck/fifo.sv, Line 33
+  Severity: info
+  Stats:   depth=1 gates=3 flops=0
+

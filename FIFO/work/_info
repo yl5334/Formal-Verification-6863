@@ -1,0 +1,87 @@
+m255
+K4
+z2
+!s11f vlog 2019.2_1 2019.05, May 13 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/user/stud/fall23/yl5334/tutorials_6863/FIFO
+vfifo
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1708288032
+!i10b 1
+!s100 2=:9e;^B=6D3>a90AYdcb3
+!s11b QR`B=QnaHn3n:BG_^Ff8`1
+IIEB9L?j7h]Sj`QW]oLzi50
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z4 w1703384085
+Z5 8./fifo_equ.sv
+Z6 F./fifo_equ.sv
+L0 50
+Z7 OL;L;2019.2_1;69
+r1
+!s85 0
+31
+Z8 !s108 1708288031.000000
+!s107 ./fifo_equ.sv|
+Z9 !s90 -sv|./fifo_equ.sv|+libext+.v+.sv|-y|/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog|+incdir+/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog|+define+OVL_SVA+OVL_ASSERT_ON+OVL_COVER_ON+OVL_XCHECK_OFF|
+!i113 0
+Z10 o-sv +libext+.v+.sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv +libext+.v+.sv -y /tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog +incdir+/tools/mentor/questa_2019.2_1/linux_x86_64/share/assertion_lib/OVL/verilog +define+OVL_SVA+OVL_ASSERT_ON+OVL_COVER_ON+OVL_XCHECK_OFF -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vfifo_equ
+R1
+R2
+!i10b 1
+!s100 K`mA1Pm_DF7n1ZMA;>;_61
+!s11b ET68EKfDe:A4^G;g?AUN81
+I02mka_Y0^JU=^jb18DB6N2
+R3
+S1
+R0
+R4
+R5
+R6
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+Z13 !s107 ./fifo_equ.sv|
+R9
+!i113 0
+R10
+R11
+R12
+vFIFO_gold
+R1
+R2
+!i10b 1
+!s100 BNG]>1_N3ML;0lU8IiPK31
+!s11b 1ZV=kNM4e[EkVoz[ZcP3>2
+I^aR8A7BMSNm@R9K3GkBXD3
+R3
+S1
+R0
+R4
+R5
+R6
+L0 143
+R7
+r1
+!s85 0
+31
+R8
+R13
+R9
+!i113 0
+R10
+R11
+R12
+n@f@i@f@o_gold

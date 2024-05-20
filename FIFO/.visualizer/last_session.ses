@@ -1,0 +1,48 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session version="0.2">
+ <app argc="8">
+  <argv pos="0" value="/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/hdlstudio"/>
+  <argv pos="1" value="-I/tools/mentor/questa_2019.2_1/linux_x86_64/share/modeltech/bin/../linux_x86_64/Visualizer/bin/../tb/incl"/>
+  <argv pos="2" value="+designfile+/homes/user/stud/fall23/yl5334/tutorials_6863/FIFO/Output_Results/qcache/VISUALIZER/design.bin"/>
+  <argv pos="3" value="+show_pi_drvr_rcvr"/>
+  <argv pos="4" value="+max_drv_rec_cnt=10000"/>
+  <argv pos="5" value="+no_splash"/>
+  <argv pos="6" value="+visformal"/>
+  <argv pos="7" value="+external_client"/>
+ </app>
+ <window_config>
+  <dockareas bottom="367" left="250" top="0" right="2399"/>
+  <window height="632" type="rtl" width="1280" x="0" undocked="0" visible="1" y="64"/>
+  <window type="transcript" dock_location="bottom" x="0" undocked="0" visible="1" y="0"/>
+  <window height="864" type="wave" width="2064" title="Wave (read_ability_test)" x="926" undocked="1" visible="1" y="501"/>
+  <window id="1" height="864" type="wave" width="2064" title="Wave (fifo_cover_ent_5)" x="160" undocked="1" visible="0" y="80"/>
+  <window id="2" height="864" type="wave" width="2064" title="Wave (fifo_cover_ent_5)" x="160" undocked="1" visible="1" y="80"/>
+  <window type="source" x="0" undocked="0" visible="1" y="0"/>
+  <window type="structure" dock_location="left" x="0" undocked="0" visible="0" y="0"/>
+  <window type="zindutview" dock_location="left" title="Design" x="0" undocked="0" visible="1" y="0"/>
+  <window type="zinformalproperties" dock_location="bottom" title="Properties" x="0" undocked="0" visible="1" y="0"/>
+  <window type="zinformalcontrolpointsnew" dock_location="right" title="Control Points" x="0" undocked="0" visible="0" y="0"/>
+  <window type="zinformalpolicychecks" dock_location="bottom" title="Design Checks" x="0" undocked="0" visible="0" y="0"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile tagName="F0" waveType="0" fileName="/tmp/propcheck.585_789/DesignConsts.db"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser value_annotation_mode="true" instancename="fifo_equ" primary="true" value_tooltip_mode="true"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curDisplayTimeUnitStr="1ns" curDisplayTimeUnit="-9" customDisplayTimeUnitListStr="" curRadix="8" curActiveWaveFile="F0">
+   <curTime lowtime="0" hightime="0"/>
+  </watchTower_cur_setting>
+  <drv_rec_data drivers="true"/>
+ </gui>
+ <wave_mgr sync_time_range="0"/>
+ <windows/>
+ <dut/>
+</session>
